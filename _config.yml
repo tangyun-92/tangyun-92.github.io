@@ -5,7 +5,7 @@
 # Site
 title: 海布里
 subtitle: 海布里
-description: ''
+description: '大鹏一日同风起 扶摇直上九万里'
 keywords: ''
 author: Tang Yun
 language: zh-CN
@@ -135,3 +135,14 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
+
+leancloud_counter_security:
+ enable_sync: true
+ app_id: xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz # 同前文的id
+ app_key: oVDK9Nl1SEhkpI50U67NAsXP # 同前文的key
+ username:
+ password:
