@@ -41,7 +41,8 @@ fn1()
 
 
 执行结果如下：
-![img](/images/posts/2021-12-10-async-01.png)
+<!-- ![img](/images/posts/2021-12-10-async-01.png) -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2021-12-10-async-01.png?raw=true)
 
 
 
@@ -90,7 +91,8 @@ fn1().then(fn2).then(fn3).then(res => {
 
 
 执行结果如下：
-![img](/images/posts/2021-12-10-async-02.png)
+<!-- ![img](/images/posts/2021-12-10-async-02.png) -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2021-12-10-async-02.png?raw=true)
 
 
 
@@ -140,5 +142,6 @@ console.log('我是最开始同步执行的')
 
 
 执行结果如下：
-![img](/images/posts/2021-12-10-async-03.png)
+<!-- ![img](/images/posts/2021-12-10-async-03.png) -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2021-12-10-async-03.png?raw=true)
 

@@ -14,7 +14,8 @@ tags:
 
 我们将要修改如下两个文件
 
-![img](/images/wiki/Parallels Desktop 16.png)
+<!-- ![img](/images/wiki/Parallels Desktop 16.png) -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/Parallels Desktop 16.png?raw=true)
 
 在 dispatcher.desktop.xml 中找到 "<Usb>0</Usb>" ，替换为 "<Usb>1</Usb>"
 

@@ -76,4 +76,5 @@ const list = getCartesianProduct(getMultidimensional(arr))
 console.log(list)
 ```
 
-![array.png](/images/posts/2020-10-12-value-to-key.png)
+<!-- ![array.png](/images/posts/2020-10-12-value-to-key.png) -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2020-10-12-value-to-key.png?raw=true)

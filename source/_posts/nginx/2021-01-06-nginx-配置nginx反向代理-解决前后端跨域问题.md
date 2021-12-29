@@ -18,7 +18,8 @@ tags:
 
 #### 2.解压下载后的文件，目录如下
 
-![img](/images/posts/2020-01-06-nginx.png) 
+<!-- ![img](/images/posts/2020-01-06-nginx.png)  -->
+![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2020-01-06-nginx.png?raw=true)
 
 
 
