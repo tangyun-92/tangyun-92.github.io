@@ -498,33 +498,6 @@
     
     
     <entry>
-      <title>vue执行打包时将代码同时生成一个压缩文件包</title>
-      <link href="/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/"/>
-      <url>/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/</url>
-      
-        <content type="html"><![CDATA[<p>首先安装插件</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> filemanager-webpack-plugin@2.0.5 -D<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">const</span> FileManagerPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'filemanager-webpack-plugin'</span><span class="token punctuation">)</span><span class="token keyword">const</span> myDate <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token keyword">const</span> time <span class="token operator">=</span>  myDate<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span>  <span class="token string">'-'</span> <span class="token operator">+</span>  <span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token function">Number</span><span class="token punctuation">(</span>myDate<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span>  <span class="token string">'-'</span> <span class="token operator">+</span>  myDate<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>  configureWebpack<span class="token operator">:</span> <span class="token punctuation">{</span>    <span class="token comment">//webpack的相关配置在这里</span>    plugins<span class="token operator">:</span> <span class="token punctuation">[</span>      <span class="token keyword">new</span> <span class="token class-name">FileManagerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>        <span class="token comment">//初始化 filemanager-webpack-plugin 插件实例</span>        onEnd<span class="token operator">:</span> <span class="token punctuation">{</span>          <span class="token keyword">delete</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>          archive<span class="token operator">:</span> <span class="token punctuation">[</span>            <span class="token punctuation">{</span>              source<span class="token operator">:</span> <span class="token string">'./dist'</span><span class="token punctuation">,</span>              destination<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>            <span class="token punctuation">}</span><span class="token punctuation">,</span>          <span class="token punctuation">]</span><span class="token punctuation">,</span>        <span class="token punctuation">}</span><span class="token punctuation">,</span>      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>    <span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Vue </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Vue </tag>
-            
-            <tag> ZIP </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Nodejs实现批量裁剪图片功能</title>
       <link href="/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/"/>
       <url>/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/</url>
@@ -544,6 +517,33 @@
             <tag> Node </tag>
             
             <tag> Canvas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vue执行打包时将代码同时生成一个压缩文件包</title>
+      <link href="/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/"/>
+      <url>/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/</url>
+      
+        <content type="html"><![CDATA[<p>首先安装插件</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> filemanager-webpack-plugin@2.0.5 -D<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">const</span> FileManagerPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'filemanager-webpack-plugin'</span><span class="token punctuation">)</span><span class="token keyword">const</span> myDate <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token keyword">const</span> time <span class="token operator">=</span>  myDate<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span>  <span class="token string">'-'</span> <span class="token operator">+</span>  <span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token function">Number</span><span class="token punctuation">(</span>myDate<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span>  <span class="token string">'-'</span> <span class="token operator">+</span>  myDate<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>  configureWebpack<span class="token operator">:</span> <span class="token punctuation">{</span>    <span class="token comment">//webpack的相关配置在这里</span>    plugins<span class="token operator">:</span> <span class="token punctuation">[</span>      <span class="token keyword">new</span> <span class="token class-name">FileManagerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>        <span class="token comment">//初始化 filemanager-webpack-plugin 插件实例</span>        onEnd<span class="token operator">:</span> <span class="token punctuation">{</span>          <span class="token keyword">delete</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>          archive<span class="token operator">:</span> <span class="token punctuation">[</span>            <span class="token punctuation">{</span>              source<span class="token operator">:</span> <span class="token string">'./dist'</span><span class="token punctuation">,</span>              destination<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>            <span class="token punctuation">}</span><span class="token punctuation">,</span>          <span class="token punctuation">]</span><span class="token punctuation">,</span>        <span class="token punctuation">}</span><span class="token punctuation">,</span>      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>    <span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> ZIP </tag>
             
         </tags>
       
