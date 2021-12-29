@@ -288,7 +288,7 @@ gitalk:
   repo: tangyun-92.github.io
   oauth:
     clientId: ed1558ce45f3c1629808
-    clientSecret: 25360acc9f66046f929639f3dc9f992529388f57
+    clientSecret: d06ba6257488096e1e0fa4a8588e2ec2211a2693
   admin:
 
 # the Gitment config，default disabled
