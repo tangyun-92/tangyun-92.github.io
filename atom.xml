@@ -6,7 +6,7 @@
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/"/>
-  <updated>2021-12-28T08:33:10.873Z</updated>
+  <updated>2021-12-29T08:25:47.374Z</updated>
   <id>https://github.com/tangyun-92/tangyun-92.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/12/10/javascript/2021-12-10-javascript-zhong-ru-he-rang-duo-ge-yi-bu-an-shun-xu-zhi-xing/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/12/10/javascript/2021-12-10-javascript-zhong-ru-he-rang-duo-ge-yi-bu-an-shun-xu-zhi-xing/</id>
     <published>2021-12-10T07:42:14.000Z</published>
-    <updated>2021-12-28T08:33:10.873Z</updated>
+    <updated>2021-12-29T08:25:47.374Z</updated>
     
     
       
@@ -50,7 +50,7 @@
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/10/12/javascript/2021-10-12-js-jiang-yi-ge-shu-zu-de-value-zuo-wei-ling-yi-ge-shu-zu-de-key/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/10/12/javascript/2021-10-12-js-jiang-yi-ge-shu-zu-de-value-zuo-wei-ling-yi-ge-shu-zu-de-key/</id>
     <published>2021-10-12T06:42:14.000Z</published>
-    <updated>2021-12-28T08:33:06.735Z</updated>
+    <updated>2021-12-29T08:25:19.521Z</updated>
     
     
       
@@ -333,7 +333,7 @@
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/06/03/mac/mac-parallels-desktop-16/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/06/03/mac/mac-parallels-desktop-16/</id>
     <published>2021-06-03T11:15:14.000Z</published>
-    <updated>2021-12-28T08:24:47.478Z</updated>
+    <updated>2021-12-29T08:24:59.466Z</updated>
     
     
       
@@ -342,8 +342,8 @@
         
     <summary type="html">&lt;p&gt;首先进入路径：/资源库/Preferences/Parallels/&lt;/p&gt;
 &lt;p&gt;我们将要修改如下两个文件&lt;/p&gt;
-&lt;p&gt;![img](/images/wiki/Parallels Desktop 16.png)&lt;/p&gt;
-&lt;p&gt;在</summary>
+&lt;!-- ![img](/images/wiki/Parallels Desktop 16.png) --&gt;
+&lt;p&gt;![img](&lt;a</summary>
         
       
     
@@ -417,7 +417,7 @@
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/</id>
     <published>2021-01-06T07:42:14.000Z</published>
-    <updated>2021-12-28T08:33:30.319Z</updated>
+    <updated>2021-12-29T08:24:25.072Z</updated>
     
     
       
@@ -472,7 +472,7 @@
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/</id>
     <published>2020-11-11T04:22:39.000Z</published>
-    <updated>2021-12-28T08:30:15.218Z</updated>
+    <updated>2021-12-29T08:26:02.919Z</updated>
     
     
       
