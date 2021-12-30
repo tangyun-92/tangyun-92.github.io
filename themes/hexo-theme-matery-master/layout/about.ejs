@@ -41,7 +41,10 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up"><%= theme.profile.introduction %></div>
+                <div class="introduction center-align" data-aos="fade-up">
+                  <%# theme.profile.introduction %>
+                  <%- '<span id="jinrishici-sentence">正在加载今日诗词....</span>' %>
+                </div>
 
                 <%- partial('_widget/post-charts') %>
 
