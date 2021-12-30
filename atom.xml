@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>海布里</title>
+  <title></title>
   
-  <subtitle>海布里</subtitle>
+  <subtitle>Welcome to Highbury&#39;s blog</subtitle>
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/"/>
