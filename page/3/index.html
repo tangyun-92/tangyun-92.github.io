@@ -14,10 +14,11 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"github.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="大鹏一日同风起 扶摇直上九万里">
@@ -136,17 +137,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">39</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">12</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">27</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -190,6 +191,9 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/tangyun-92/tangyun-92.github.io" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
 
     <main class="main">
@@ -203,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-de-shu-ju-jian-yan-yu-ju-he-guan-dao/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/712e955b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -217,7 +221,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-de-shu-ju-jian-yan-yu-ju-he-guan-dao/" class="post-title-link" itemprop="url">Mongoose的数据检验与聚合管道</a>
+            <a href="/post/712e955b/" class="post-title-link" itemprop="url">Mongoose的数据检验与聚合管道</a>
         </h2>
 
         <div class="post-meta">
@@ -229,13 +233,6 @@
 
               <time title="创建时间：2020-08-25 16:42:14" itemprop="dateCreated datePublished" datetime="2020-08-25T16:42:14+08:00">2020-08-25</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:33:38" itemprop="dateModified" datetime="2021-12-28T16:33:38+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -246,13 +243,20 @@
                 </span>
             </span>
 
-          
-            <span id="/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-de-shu-ju-jian-yan-yu-ju-he-guan-dao/" class="post-meta-item leancloud_visitors" data-flag-title="Mongoose的数据检验与聚合管道" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -265,134 +269,14 @@
 
       
           <h3 id="一、什么是mongoose的数据检验"><a href="#一、什么是mongoose的数据检验" class="headerlink" title="一、什么是mongoose的数据检验"></a>一、什么是mongoose的数据检验</h3><p>用户通过mongoose给mongodb数据库增加数据的时候，对数据的合法性进行的验证</p>
-<h3 id="二、mongoose校验参数"><a href="#二、mongoose校验参数" class="headerlink" title="二、mongoose校验参数"></a>二、mongoose校验参数</h3><ul>
-<li><p>required：表示这个数据必须传入</p>
-</li>
-<li><p>max：用于Number类型， 最大值</p>
-</li>
-<li><p>min：用于Number类型， 最小值</p>
-</li>
-<li><p>enum：枚举类型，要求数据必须满足枚举值enum:[‘0’, ‘1’, ‘2’]</p>
-</li>
-<li><p>match：增加的数据必须符合match（正则）的规则</p>
-</li>
-<li><p>maxlength：最大长度</p>
-</li>
-<li><p>minlength：最小长度</p>
-</li>
-</ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> mongoose <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mongoose'</span><span class="token punctuation">)</span>
-
-<span class="token keyword">var</span> UserSchema <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">Schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    name<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> String<span class="token punctuation">,</span>  <span class="token comment">// 指定类型</span>
-        trim<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// 修饰符，去除左右空格</span>
-        required<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// 表示必须传入</span>
-        <span class="token function">validate</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 自定义校验器</span>
-            <span class="token keyword">return</span> name<span class="token punctuation">.</span>length <span class="token operator">&gt;=</span> <span class="token number">2</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    sn<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> String<span class="token punctuation">,</span>
-        index<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// 索引</span>
-        <span class="token function">set</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">// 自定义修饰符</span>
-            <span class="token keyword">return</span> val
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        minlength<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>  <span class="token comment">// 最小长度</span>
-        maxlength<span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>  <span class="token comment">// 最大长度</span>
-        match<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^sn(.*)i</span><span class="token regex-delimiter">/</span></span>  <span class="token comment">// 正则：要求必须以sn开头，忽略大小写</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    age<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
-        min<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>  <span class="token comment">// 最小值</span>
-        max<span class="token operator">:</span> <span class="token number">150</span><span class="token punctuation">,</span> <span class="token comment">// 最大值</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    status<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
-        <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>  <span class="token comment">// 默认值</span>
-        <span class="token keyword">enum</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>  <span class="token comment">// status的值必须在枚举的数组中</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">model</span><span class="token punctuation">(</span><span class="token string">'Users'</span><span class="token punctuation">,</span> UserSchema<span class="token punctuation">,</span> <span class="token string">'users'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="三、mongoose的聚合管道"><a href="#三、mongoose的聚合管道" class="headerlink" title="三、mongoose的聚合管道"></a>三、mongoose的聚合管道</h3><h4 id="1-order表关联order-item"><a href="#1-order表关联order-item" class="headerlink" title="1.order表关联order_item"></a>1.order表关联order_item</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> OrderModel <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./model/order'</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 查询order表中每个订单的商品</span>
-OrderModel<span class="token punctuation">.</span><span class="token function">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        $lookup<span class="token operator">:</span> <span class="token punctuation">{</span>
-            from<span class="token operator">:</span> <span class="token string">'order_item'</span><span class="token punctuation">,</span>  <span class="token comment">// 表示被关联的表</span>
-            localField<span class="token operator">:</span> <span class="token string">'order_id'</span><span class="token punctuation">,</span>  <span class="token comment">// 关联条件</span>
-            foreignField<span class="token operator">:</span> <span class="token string">'order_id'</span><span class="token punctuation">,</span>
-            <span class="token keyword">as</span><span class="token operator">:</span> <span class="token string">'items'</span>  <span class="token comment">// 将查询到的数据放入items</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-            $match<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token string">'all_price'</span><span class="token operator">:</span> <span class="token punctuation">{</span> $gte<span class="token operator">:</span> <span class="token number">90</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>  <span class="token comment">// 表示条件为all_price&gt;=90</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">]</span><span class="token function">，</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="2-order-item关联order"><a href="#2-order-item关联order" class="headerlink" title="2.order_item关联order"></a>2.order_item关联order</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* 查询order_item找出商品名称是酸奶的商品，对应的订单的订单号，以及订单的总价 */</span>
-<span class="token keyword">var</span> OrderItemModel <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./model/order_item'</span><span class="token punctuation">)</span>
-<span class="token keyword">var</span> OrderModel <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./model/order'</span><span class="token punctuation">)</span>
-<span class="token keyword">var</span> mongoose <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mongoose'</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 方法一：</span>
-OrderItemModel<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'_id'</span><span class="token operator">:</span> <span class="token string">'5eff4d743dd01fc7bce3b2bb'</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span>
-    
-    <span class="token keyword">var</span> order_item <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token keyword">var</span> order_id <span class="token operator">=</span> docs<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>order_id
-    
-    OrderModel<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'order_id'</span><span class="token operator">:</span> order_id<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-        order_itme<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>order_info <span class="token operator">=</span> docs<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
-        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>order_item<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span> 
-
-<span class="token comment">// 方法二：</span>
-<span class="token comment">// mongoose中获取ObjectId:mongoose.Types.ObjectId</span>
-OrderItemModel<span class="token punctuation">.</span><span class="token function">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        $lookup<span class="token operator">:</span> <span class="token punctuation">{</span>
-            from<span class="token operator">:</span> <span class="token string">'order'</span><span class="token punctuation">,</span>  <span class="token comment">// 表示被关联的表</span>
-            localField<span class="token operator">:</span> <span class="token string">'order_id'</span><span class="token punctuation">,</span>  <span class="token comment">// 关联条件</span>
-            foreignField<span class="token operator">:</span> <span class="token string">'order_id'</span><span class="token punctuation">,</span>
-            <span class="token keyword">as</span><span class="token operator">:</span> <span class="token string">'order_info'</span><span class="token punctuation">,</span>  <span class="token comment">// 将查询到的数据放入order_info</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-        $match<span class="token operator">:</span> <span class="token punctuation">{</span>_id<span class="token operator">:</span> mongoose<span class="token punctuation">.</span>Types<span class="token punctuation">.</span><span class="token function">ObjectId</span><span class="token punctuation">(</span><span class="token string">'5eff4d743dd01fc7bce3b2bb'</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="3-多表关联"><a href="#3-多表关联" class="headerlink" title="3.多表关联"></a>3.多表关联</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> ArticleModel <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./model/article'</span><span class="token punctuation">)</span>
-
-<span class="token comment">/* 查询文章信息，并显示文章的分类以及文章的作者的信息 */</span>
-ArticleModel<span class="token punctuation">.</span><span class="token function">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        $lookup<span class="token operator">:</span> <span class="token punctuation">{</span>
-            from<span class="token operator">:</span> <span class="token string">'articlecate'</span><span class="token punctuation">,</span>
-            localField<span class="token operator">:</span> <span class="token string">'cid'</span><span class="token punctuation">,</span>
-            foreignField<span class="token operator">:</span> <span class="token string">'_id'</span><span class="token punctuation">,</span>
-            <span class="token keyword">as</span><span class="token operator">:</span> <span class="token string">'cate'</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-        $lookup<span class="token operator">:</span> <span class="token punctuation">{</span>
-            from<span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span>
-            localField<span class="token operator">:</span> <span class="token string">'author_id'</span><span class="token punctuation">,</span>
-            foreignField<span class="token operator">:</span> <span class="token string">'_id'</span><span class="token punctuation">,</span>
-            <span class="token keyword">as</span><span class="token operator">:</span> <span class="token string">'user'</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/712e955b/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -411,7 +295,7 @@ ArticleModel<span class="token punctuation">.</span><span class="token function"
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/08/24/nodejs/2020-08-24-node-express-jie-he-multer-shi-xian-wen-jian-shang-chuan-gong-neng/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/2a655ab9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -425,7 +309,7 @@ ArticleModel<span class="token punctuation">.</span><span class="token function"
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/24/nodejs/2020-08-24-node-express-jie-he-multer-shi-xian-wen-jian-shang-chuan-gong-neng/" class="post-title-link" itemprop="url">express结合multer实现文件上传功能</a>
+            <a href="/post/2a655ab9/" class="post-title-link" itemprop="url">express结合multer实现文件上传功能</a>
         </h2>
 
         <div class="post-meta">
@@ -437,13 +321,6 @@ ArticleModel<span class="token punctuation">.</span><span class="token function"
 
               <time title="创建时间：2020-08-24 15:42:14" itemprop="dateCreated datePublished" datetime="2020-08-24T15:42:14+08:00">2020-08-24</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:33:35" itemprop="dateModified" datetime="2021-12-28T16:33:35+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -454,13 +331,20 @@ ArticleModel<span class="token punctuation">.</span><span class="token function"
                 </span>
             </span>
 
-          
-            <span id="/2020/08/24/nodejs/2020-08-24-node-express-jie-he-multer-shi-xian-wen-jian-shang-chuan-gong-neng/" class="post-meta-item leancloud_visitors" data-flag-title="express结合multer实现文件上传功能" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -479,81 +363,14 @@ ArticleModel<span class="token punctuation">.</span><span class="token function"
     描述：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>desc<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>desc<span class="token punctuation">"</span></span> <span class="token attr-name">cols</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>30<span class="token punctuation">"</span></span> <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>10<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>提交<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// nav.js文件中</span>
-<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> tools <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../../model/tools'</span><span class="token punctuation">)</span>
-
-router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/doAdd'</span><span class="token punctuation">,</span> tools<span class="token punctuation">.</span><span class="token function">multer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">single</span><span class="token punctuation">(</span><span class="token string">'pic'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 获取表单传过来的数据</span>
-    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        body<span class="token operator">:</span> req<span class="token punctuation">.</span>body<span class="token punctuation">,</span>
-        file<span class="token operator">:</span> req<span class="token punctuation">.</span>file
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token comment">// tools.js工具</span>
-<span class="token keyword">const</span> multer <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'multer'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> sd <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'silly-datetime'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> mkdirp <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mkdirp'</span><span class="token punctuation">)</span>
-
-<span class="token keyword">let</span> tools <span class="token operator">=</span> <span class="token punctuation">{</span>
-    <span class="token comment">/* 封装图片上传 */</span>
-    <span class="token function">multer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">var</span> storage <span class="token operator">=</span> multer<span class="token punctuation">.</span><span class="token function">diskStorage</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-            <span class="token comment">// 配置上传的目录</span>
-            <span class="token function-variable function">destination</span><span class="token operator">:</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> file<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-                <span class="token comment">// 1. 获取当前日期 20200703</span>
-                <span class="token keyword">let</span> day <span class="token operator">=</span> sd<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'YYYYMMDD'</span><span class="token punctuation">)</span>
-                <span class="token comment">// static/upload/20200703</span>
-                <span class="token keyword">let</span> dir <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'static/upload'</span><span class="token punctuation">,</span> day<span class="token punctuation">)</span>
-
-                <span class="token comment">// 2. 按照日期生成图片存储目录</span>
-                <span class="token keyword">await</span> <span class="token function">mkdirp</span><span class="token punctuation">(</span>dir<span class="token punctuation">)</span>  <span class="token comment">// mkdirp是一个异步方法</span>
-
-                <span class="token function">cb</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> dir<span class="token punctuation">)</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token comment">// 修改上传后的文件名</span>
-            <span class="token function-variable function">filename</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> file<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token comment">// 获取上传文件的后缀名</span>
-                <span class="token keyword">let</span> extname <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">extname</span><span class="token punctuation">(</span>file<span class="token punctuation">.</span>originalname<span class="token punctuation">)</span>
-                <span class="token function">cb</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> Date<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> extname<span class="token punctuation">)</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span><span class="token punctuation">)</span>
-        <span class="token keyword">var</span> upload <span class="token operator">=</span> <span class="token function">multer</span><span class="token punctuation">(</span><span class="token punctuation">{</span> storage<span class="token operator">:</span> storage <span class="token punctuation">}</span><span class="token punctuation">)</span>
-        <span class="token keyword">return</span> upload
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">md5</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> tools<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="多文件上传"><a href="#多文件上传" class="headerlink" title="多文件上传"></a>多文件上传</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// user.js多文件上传</span>
-<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> tools <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../../model/tools'</span><span class="token punctuation">)</span>
-
-<span class="token keyword">var</span> router <span class="token operator">=</span> express<span class="token punctuation">.</span><span class="token function">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'用户列表'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/add'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    res<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token string">'admin/user/add'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 多文件上传</span>
-<span class="token keyword">let</span> cpUpload <span class="token operator">=</span> tools<span class="token punctuation">.</span><span class="token function">multer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">fields</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'pic1'</span><span class="token punctuation">,</span> maxCount<span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'pic2'</span><span class="token punctuation">,</span> maxCount<span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-
-router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/doAdd'</span><span class="token punctuation">,</span> cpUpload<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        body<span class="token operator">:</span> req<span class="token punctuation">.</span>body<span class="token punctuation">,</span>
-        files<span class="token operator">:</span> req<span class="token punctuation">.</span>files
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> router<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/2a655ab9/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -572,7 +389,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/06/03/mysql/2020-06-03-navicat-error/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/d946248d/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -586,7 +403,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/03/mysql/2020-06-03-navicat-error/" class="post-title-link" itemprop="url">Navicat连接数据库报错2059-AUTHENTICATION PLUGIN...错误解决方法</a>
+            <a href="/post/d946248d/" class="post-title-link" itemprop="url">Navicat连接数据库报错2059-AUTHENTICATION PLUGIN...错误解决方法</a>
         </h2>
 
         <div class="post-meta">
@@ -598,13 +415,6 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
               <time title="创建时间：2020-06-03 19:35:14" itemprop="dateCreated datePublished" datetime="2020-06-03T19:35:14+08:00">2020-06-03</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-29 16:24:42" itemprop="dateModified" datetime="2021-12-29T16:24:42+08:00">2021-12-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -615,13 +425,20 @@ module<span class="token punctuation">.</span>exports <span class="token operato
                 </span>
             </span>
 
-          
-            <span id="/2020/06/03/mysql/2020-06-03-navicat-error/" class="post-meta-item leancloud_visitors" data-flag-title="Navicat连接数据库报错2059-AUTHENTICATION PLUGIN...错误解决方法" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>303</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -635,14 +452,14 @@ module<span class="token punctuation">.</span>exports <span class="token operato
       
           <p>出现这个错误的原因是因为MySQL8.0以上数据库使用的加密方式是：caching_sha2_password；</p>
 <p>我们可以使用如下命令查看一下加密信息：show variables like ‘default_authentication_plugin’;</p>
-<!-- ![img](/images/wiki/navicat-error.png) -->
-<p><img src="https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/navicat-error.png?raw=true" alt="img"></p>
-<p>在Navicat不支持MySQL8.0以上的这种用户登录账户加密方式，所以下面我们要修改root账户的加密方式为【mysql_native_password】。</p>
-<p>使用如下指令：</p>
-<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">USER</span> <span class="token string">'root'</span><span class="token variable">@'localhost'</span> IDENTIFIED <span class="token keyword">WITH</span> mysql_native_password <span class="token keyword">BY</span> <span class="token string">'密码'</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>修改成功之后，就可以使用navicat连接了。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/d946248d/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -773,6 +590,19 @@ module<span class="token punctuation">.</span>exports <span class="token operato
     </ul>
   </div>
 
+  
+  <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+  <div class="widget-wrap">
+      <div id="myCanvasContainer" class="widget tagcloud">
+          <canvas width="250" height="250" id="resCanvas" style="width=100%">
+              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Axios/" rel="tag">Axios</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Canvas/" rel="tag">Canvas</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cent-OS/" rel="tag">Cent OS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cli/" rel="tag">Cli</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css/" rel="tag">Css</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Decode/" rel="tag">Decode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Encrypt/" rel="tag">Encrypt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Express/" rel="tag">Express</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Generator/" rel="tag">Generator</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hooks/" rel="tag">Hooks</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/" rel="tag">Html</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Icon/" rel="tag">Icon</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JWT/" rel="tag">JWT</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Javascript/" rel="tag">Javascript</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/" rel="tag">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mongodb/" rel="tag">Mongodb</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mongoose/" rel="tag">Mongoose</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Navicat/" rel="tag">Navicat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Nginx/" rel="tag">Nginx</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node/" rel="tag">Node</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ORM/" rel="tag">ORM</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallels-Desktop/" rel="tag">Parallels Desktop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Performance/" rel="tag">Performance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Promise/" rel="tag">Promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sequelize/" rel="tag">Sequelize</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sql/" rel="tag">Sql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VsCode/" rel="tag">VsCode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/" rel="tag">Vue</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ZIP/" rel="tag">ZIP</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/multer/" rel="tag">multer</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/" rel="tag">前端工程化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="tag">奇技淫巧</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/" rel="tag">性能优化</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%88%E7%8E%87/" rel="tag">效率</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" rel="tag">树结构</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94%E7%A7%AF/" rel="tag">笛卡尔积</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%A8%E5%9F%9F/" rel="tag">跨域</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%80%92%E5%BD%92/" rel="tag">递归</a><span class="tag-list-count">1</span></li></ul>
+          </canvas>
+      </div>
+  </div>
+  
+
+
       </div>
 
     </div>
@@ -797,9 +627,19 @@ module<span class="token punctuation">.</span>exports <span class="token operato
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Tang Yun</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">40k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">36 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
-  </div>
 
         
 <div class="busuanzi-count">
@@ -828,92 +668,6 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
 
 
-<script>
-  (function() {
-    function leancloudSelector(url) {
-      url = encodeURI(url);
-      return document.getElementById(url).querySelector('.leancloud-visitors-count');
-    }
-
-    function addCount(Counter) {
-      var visitors = document.querySelector('.leancloud_visitors');
-      var url = decodeURI(visitors.id);
-      var title = visitors.dataset.flagTitle;
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          if (results.length > 0) {
-            var counter = results[0];
-            leancloudSelector(url).innerText = counter.time + 1;
-            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
-              .catch(error => {
-                console.error('Failed to save visitor count', error);
-              });
-          } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    function showTime(Counter) {
-      var visitors = document.querySelectorAll('.leancloud_visitors');
-      var entries = [...visitors].map(element => {
-        return decodeURI(element.id);
-      });
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url: { '$in': entries } })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          for (let url of entries) {
-            let target = results.find(item => item.url === url);
-            leancloudSelector(url).innerText = target ? target.time : 0;
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz","app_key":"oVDK9Nl1SEhkpI50U67NAsXP","server_url":null,"security":true};
-    function fetchData(api_server) {
-      var Counter = (method, url, data) => {
-        return fetch(`${api_server}/1.1${url}`, {
-          method,
-          headers: {
-            'X-LC-Id'     : app_id,
-            'X-LC-Key'    : app_key,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data)
-        });
-      };
-      if (CONFIG.page.isPost) {
-        if (CONFIG.hostname !== location.hostname) return;
-        addCount(Counter);
-      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
-        showTime(Counter);
-      }
-    }
-
-    let api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${app_id.slice(0, 8).toLowerCase()}.api.lncldglobal.com`;
-
-    if (api_server) {
-      fetchData(api_server);
-    } else {
-      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
-        .then(response => response.json())
-        .then(({ api_server }) => {
-          fetchData('https://' + api_server);
-        });
-    }
-  })();
-</script>
 
 
       </div>
@@ -922,6 +676,8 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -930,16 +686,12 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
 
 
-  <script defer src="/lib/three/three.min.js"></script>
-    <script defer src="/lib/three/three-waves.min.js"></script>
-    <script defer src="/lib/three/canvas_lines.min.js"></script>
-    <script defer src="/lib/three/canvas_sphere.min.js"></script>
 
 
   
@@ -965,6 +717,21 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   
 
   
+
+
+  
+
+  <script async src="/js/cursor/fireworks.js"></script>
+
+
+
+
+  <script src="/js/activate-power-mode.min.js"></script>
+  <script>
+    POWERMODE.colorful = true;
+    POWERMODE.shake = false;
+    document.body.addEventListener('input', POWERMODE);
+  </script>
 
 
 </body>

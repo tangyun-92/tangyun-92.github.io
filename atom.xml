@@ -6,7 +6,7 @@
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/tangyun-92/tangyun-92.github.io/"/>
-  <updated>2021-12-29T08:25:47.374Z</updated>
+  <updated>2021-12-30T03:20:13.703Z</updated>
   <id>https://github.com/tangyun-92/tangyun-92.github.io/</id>
   
   <author>
@@ -18,19 +18,13 @@
   
   <entry>
     <title>Javascript中如何让多个异步按顺序执行</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/12/10/javascript/2021-12-10-javascript-zhong-ru-he-rang-duo-ge-yi-bu-an-shun-xu-zhi-xing/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/12/10/javascript/2021-12-10-javascript-zhong-ru-he-rang-duo-ge-yi-bu-an-shun-xu-zhi-xing/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/16614eb6/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/16614eb6/</id>
     <published>2021-12-10T07:42:14.000Z</published>
-    <updated>2021-12-29T08:25:47.374Z</updated>
+    <updated>2021-12-30T03:20:13.703Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;直接调用（异步调异步）&quot;&gt;&lt;a href=&quot;#直接调用（异步调异步）&quot; class=&quot;headerlink&quot; title=&quot;直接调用（异步调异步）&quot;&gt;&lt;/a&gt;直接调用（异步调异步）&lt;/h1&gt;&lt;pre class=&quot;line-numbers</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;直接调用（异步调异步）&quot;&gt;&lt;a href=&quot;#直接调用（异步调异步）&quot; class=&quot;headerlink&quot; title=&quot;直接调用（异步调异步）&quot;&gt;&lt;/a&gt;直接调用（异步调异步）&lt;/h1&gt;</summary>
     
     
     
@@ -47,18 +41,20 @@
   
   <entry>
     <title>将一个数组的value作为另一个数组的key</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/10/12/javascript/2021-10-12-js-jiang-yi-ge-shu-zu-de-value-zuo-wei-ling-yi-ge-shu-zu-de-key/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/10/12/javascript/2021-10-12-js-jiang-yi-ge-shu-zu-de-value-zuo-wei-ling-yi-ge-shu-zu-de-key/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/c51a90f2/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/c51a90f2/</id>
     <published>2021-10-12T06:42:14.000Z</published>
-    <updated>2021-12-29T08:25:19.521Z</updated>
+    <updated>2021-12-30T03:21:29.768Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;
-&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; arr &lt;span</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;
+&lt;span class=&quot;token</summary>
         
       
     
@@ -75,20 +71,17 @@
   
   <entry>
     <title>如何开发一个脚手架</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/10/10/vue/2021-10-10-vue-ru-he-kai-fa-yi-ge-jiao-shou-jia/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/10/10/vue/2021-10-10-vue-ru-he-kai-fa-yi-ge-jiao-shou-jia/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/5f803dd0/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/5f803dd0/</id>
     <published>2021-10-10T02:35:14.000Z</published>
-    <updated>2021-12-28T08:34:36.906Z</updated>
+    <updated>2021-12-30T03:23:00.277Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h3 id=&quot;一、脚手架开发流程&quot;&gt;&lt;a href=&quot;#一、脚手架开发流程&quot; class=&quot;headerlink&quot; title=&quot;一、脚手架开发流程&quot;&gt;&lt;/a&gt;一、脚手架开发流程&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;通过命令行新建一个文件夹：&lt;code&gt;mkdir</summary>
-        
-      
+&lt;li&gt;通过命令行新建一个文件夹：&lt;code&gt;mkdir test-cli&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;进入 &lt;code&gt;test-cli&lt;/code&gt; 文件夹，执行  &lt;code&gt;npm init -y&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在根目录下新建一个 &lt;code&gt;bin&lt;/code&gt; 文件夹，在其中新建一个 &lt;code&gt;index.js&lt;/code&gt;，并输入：&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -103,20 +96,16 @@
   
   <entry>
     <title>JavaScript中一些能提升工作效率的方法</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/09/07/javascript/2021-09-07-js-yi-xie-neng-ti-sheng-gong-zuo-xiao-lu-de-fang-fa/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/09/07/javascript/2021-09-07-js-yi-xie-neng-ti-sheng-gong-zuo-xiao-lu-de-fang-fa/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/89ad20c0/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/89ad20c0/</id>
     <published>2021-09-07T06:42:14.000Z</published>
-    <updated>2021-12-28T08:32:28.580Z</updated>
+    <updated>2021-12-30T03:21:17.157Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h3 id=&quot;数组去重&quot;&gt;&lt;a href=&quot;#数组去重&quot; class=&quot;headerlink&quot; title=&quot;数组去重&quot;&gt;&lt;/a&gt;数组去重&lt;/h3&gt;&lt;p&gt;利用 Array.from 与 set 去重&lt;/p&gt;
-&lt;pre class=&quot;line-numbers</summary>
-        
-      
+&lt;pre class=&quot;line-numbers language-javascript&quot; data-language=&quot;javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; newArr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;newArr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// [2, 3, 4]&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
     
     
     
@@ -133,19 +122,13 @@
   
   <entry>
     <title>vue3.0 使用自定义hooks替代mixins</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/09/03/vue/2021-09-03-vue3.0-shi-yong-zi-ding-yi-hooks-ti-dai-mixins/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/09/03/vue/2021-09-03-vue3.0-shi-yong-zi-ding-yi-hooks-ti-dai-mixins/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/8a5d5064/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/8a5d5064/</id>
     <published>2021-09-03T02:35:14.000Z</published>
-    <updated>2021-12-28T08:34:33.227Z</updated>
+    <updated>2021-12-30T03:22:55.242Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;mixins方式的痛点&quot;&gt;&lt;a href=&quot;#mixins方式的痛点&quot; class=&quot;headerlink&quot; title=&quot;mixins方式的痛点&quot;&gt;&lt;/a&gt;mixins方式的痛点&lt;/h3&gt;&lt;p&gt;传统 mixins 有很多让人诟病的地方，mixins</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;mixins方式的痛点&quot;&gt;&lt;a href=&quot;#mixins方式的痛点&quot; class=&quot;headerlink&quot; title=&quot;mixins方式的痛点&quot;&gt;&lt;/a&gt;mixins方式的痛点&lt;/h3&gt;&lt;p&gt;传统 mixins 有很多让人诟病的地方，mixins 的深度合并非常隐式，这让代码的逻辑更难理解和调试，具体表现为如下几点：&lt;/p&gt;</summary>
     
     
     
@@ -160,20 +143,28 @@
   
   <entry>
     <title>html 与 css 优化</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/08/26/xing-neng/2021-08-26-html-yu-css-you-hua/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/08/26/xing-neng/2021-08-26-html-yu-css-you-hua/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/f69937c2/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/f69937c2/</id>
     <published>2021-08-26T04:42:39.000Z</published>
-    <updated>2021-12-28T08:20:55.807Z</updated>
+    <updated>2021-12-30T03:20:45.045Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h3 id=&quot;一、精简-HTML-代码&quot;&gt;&lt;a href=&quot;#一、精简-HTML-代码&quot; class=&quot;headerlink&quot; title=&quot;一、精简 HTML 代码&quot;&gt;&lt;/a&gt;一、精简 HTML 代码&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;减少 HTML</summary>
-        
-      
+&lt;li&gt;&lt;p&gt;减少 HTML 的嵌套&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;减少 DOM 节点数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;减少无语义代码（比如：&lt;/p&gt;&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;清除浮动）&lt;p&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除 http 或者 https，如果 URL 的协议头和当前页面的协议头一致的，或者此 URL 在多个协议头都是可用的，则可以考虑删除协议头&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除多余的空格、换行符、缩进和不必要的注释&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;省略冗余的标签和属性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用相对路径的 URL&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -190,19 +181,13 @@
   
   <entry>
     <title>项目中图片优化</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/08/25/xing-neng/2021-08-25-xiang-mu-zhong-tu-pian-you-hua/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/08/25/xing-neng/2021-08-25-xiang-mu-zhong-tu-pian-you-hua/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/391869be/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/391869be/</id>
     <published>2021-08-25T11:22:39.000Z</published>
-    <updated>2021-12-28T08:05:49.259Z</updated>
+    <updated>2021-12-30T03:20:35.661Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;一、使用工具进行图片压缩&quot;&gt;&lt;a href=&quot;#一、使用工具进行图片压缩&quot; class=&quot;headerlink&quot; title=&quot;一、使用工具进行图片压缩&quot;&gt;&lt;/a&gt;一、使用工具进行图片压缩&lt;/h3&gt;&lt;h4 id=&quot;压缩-png-格式的图片&quot;&gt;&lt;a</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;一、使用工具进行图片压缩&quot;&gt;&lt;a href=&quot;#一、使用工具进行图片压缩&quot; class=&quot;headerlink&quot; title=&quot;一、使用工具进行图片压缩&quot;&gt;&lt;/a&gt;一、使用工具进行图片压缩&lt;/h3&gt;</summary>
     
     
     
@@ -215,19 +200,15 @@
   
   <entry>
     <title>使用AES实现密码加密（ECB和CBC两种模式）</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/07/26/javascript/2021-07-26-js-shi-yong-aes-shi-xian-mi-ma-jia-mi-ecb-he-cbc-liang-chong-mo-shi/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/07/26/javascript/2021-07-26-js-shi-yong-aes-shi-xian-mi-ma-jia-mi-ecb-he-cbc-liang-chong-mo-shi/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/581db924/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/581db924/</id>
     <published>2021-07-26T04:42:14.000Z</published>
-    <updated>2021-12-28T08:32:23.776Z</updated>
+    <updated>2021-12-30T03:21:13.292Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;ECB-与-CBC-的区别&quot;&gt;&lt;a href=&quot;#ECB-与-CBC-的区别&quot; class=&quot;headerlink&quot; title=&quot;ECB 与 CBC 的区别&quot;&gt;&lt;/a&gt;ECB 与 CBC</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;ECB-与-CBC-的区别&quot;&gt;&lt;a href=&quot;#ECB-与-CBC-的区别&quot; class=&quot;headerlink&quot; title=&quot;ECB 与 CBC 的区别&quot;&gt;&lt;/a&gt;ECB 与 CBC 的区别&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ECB：&lt;/strong&gt; 是一种基础的加密方式，密文被分割成分组长度相等的块（不足补齐），然后单独一个个加密，一个个输出组成密文。&lt;br&gt;&lt;strong&gt;CBC：&lt;/strong&gt; 是一种循环模式，前一个分组的密文和当前分组的明文异或或操作后再加密，这样做的目的是增强破解难度。（不容易主动攻击，安全性好于ECB，是SSL、IPSec的标准）&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -244,19 +225,34 @@
   
   <entry>
     <title>Cent OS 系统安装 Mysql</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/07/17/cent-os/2021-07-17-cent-os-cent-os-xi-tong-an-zhuang-mysql/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/07/17/cent-os/2021-07-17-cent-os-cent-os-xi-tong-an-zhuang-mysql/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/d33be7ca/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/d33be7ca/</id>
     <published>2021-07-17T02:42:39.000Z</published>
-    <updated>2021-12-28T08:31:59.242Z</updated>
+    <updated>2021-12-30T03:20:51.479Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Linux目录结构&quot;&gt;&lt;a href=&quot;#Linux目录结构&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;Linux目录结构&quot;&gt;&lt;a href=&quot;#Linux目录结构&quot; class=&quot;headerlink&quot; title=&quot;Linux目录结构&quot;&gt;&lt;/a&gt;Linux目录结构&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;bin：存放可执行的二进制程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;dev：硬件文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;etc：程序的配置文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;home：用户目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;proc：存放运行的进程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;root：root账户的用户目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;sbin：可执行的二进制文件，只能又root账户执行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;tmp：系统的临时文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;usr：用户安装的程序&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;var：存放程序或者系统的日志文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -271,21 +267,27 @@
   
   <entry>
     <title>树结构数据各种递归</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/07/10/javascript/2021-07-10-js-shu-jie-gou-shu-ju-ge-chong-di-gui/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/07/10/javascript/2021-07-10-js-shu-jie-gou-shu-ju-ge-chong-di-gui/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/2e7a258e/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/2e7a258e/</id>
     <published>2021-07-10T01:22:39.000Z</published>
-    <updated>2021-12-28T08:32:10.250Z</updated>
+    <updated>2021-12-30T03:21:07.881Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
 * 树组件节点添加属性
-* @param</summary>
-        
-      
+* @param {Object}    data 树的源数据
+* @returns {Object}  data 添加自定义属性后的树的数据
+*/&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTreeRecursion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;item&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;index&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;scopedSlots &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;customNode&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setTreeRecursion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;item&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;setTreeRecursion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;树结构数据&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
     
     
     
@@ -302,18 +304,19 @@
   
   <entry>
     <title>mysql基本语句</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/07/01/mysql/2021-07-01-mysql-mysql-ji-ben-yu-ju/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/07/01/mysql/2021-07-01-mysql-mysql-ji-ben-yu-ju/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/ee4b22a2/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/ee4b22a2/</id>
     <published>2021-07-01T03:22:39.000Z</published>
-    <updated>2021-12-28T08:20:28.259Z</updated>
+    <updated>2021-12-30T03:21:52.647Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-sql&quot; data-language=&quot;sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- 查看所有数据库&lt;/span&gt;
-&lt;span</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;pre class=&quot;line-numbers language-sql&quot; data-language=&quot;sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token</summary>
         
       
     
@@ -330,22 +333,14 @@
   
   <entry>
     <title>Parallels Desktop 16 完美解决无法联网</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/06/03/mac/mac-parallels-desktop-16/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/06/03/mac/mac-parallels-desktop-16/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/3d66f980/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/3d66f980/</id>
     <published>2021-06-03T11:15:14.000Z</published>
-    <updated>2021-12-29T08:24:59.466Z</updated>
+    <updated>2021-12-30T03:21:41.677Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;首先进入路径：/资源库/Preferences/Parallels/&lt;/p&gt;
-&lt;p&gt;我们将要修改如下两个文件&lt;/p&gt;
-&lt;!-- ![img](/images/wiki/Parallels Desktop 16.png) --&gt;
-&lt;p&gt;![img](&lt;a</summary>
-        
-      
+&lt;p&gt;我们将要修改如下两个文件&lt;/p&gt;</summary>
     
     
     
@@ -360,17 +355,19 @@
   
   <entry>
     <title>vue+axios将后端返回的图片流显示到img中</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/05/26/vue/2021-05-26-vue-axios-jiang-hou-duan-fan-hui-de-tu-pian-liu-xian-shi-dao-img-zhong/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/05/26/vue/2021-05-26-vue-axios-jiang-hou-duan-fan-hui-de-tu-pian-liu-xian-shi-dao-img-zhong/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/2cf7efe9/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/2cf7efe9/</id>
     <published>2021-05-26T02:34:14.000Z</published>
-    <updated>2021-12-28T08:34:27.907Z</updated>
+    <updated>2021-12-30T03:22:48.488Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;axios&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;axios&lt;span class=&quot;token</summary>
         
       
     
@@ -387,19 +384,28 @@
   
   <entry>
     <title>节流与防抖函数的实现</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/03/22/javascript/2021-03-22-js-jie-liu-yu-fang-dou-han-shu-de-shi-xian/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/03/22/javascript/2021-03-22-js-jie-liu-yu-fang-dou-han-shu-de-shi-xian/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/60fbdbc1/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/60fbdbc1/</id>
     <published>2021-03-22T09:22:39.000Z</published>
-    <updated>2021-12-28T08:32:03.693Z</updated>
+    <updated>2021-12-30T03:21:03.339Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;节流函数&quot;&gt;&lt;a href=&quot;#节流函数&quot; class=&quot;headerlink&quot; title=&quot;节流函数&quot;&gt;&lt;/a&gt;节流函数&lt;/h3&gt;&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;节流函数&quot;&gt;&lt;a href=&quot;#节流函数&quot; class=&quot;headerlink&quot; title=&quot;节流函数&quot;&gt;&lt;/a&gt;节流函数&lt;/h3&gt;&lt;pre class=&quot;line-numbers language-js&quot; data-language=&quot;js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+* @param {Function} fn 函数
+*	@param {Number} time 时间
+*/&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;throttle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;fn&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; time&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; previous &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  	&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Date&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; that &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; args &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; arguments
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;now &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; previous &lt;span class=&quot;token operator&quot;&gt;&amp;gt;&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;token function&quot;&gt;fn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;that&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      previous &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; now
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
     
     
     
@@ -414,19 +420,13 @@
   
   <entry>
     <title>配置nginx反向代理-解决前后端跨域问题</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/dd45473f/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/dd45473f/</id>
     <published>2021-01-06T07:42:14.000Z</published>
-    <updated>2021-12-29T08:24:25.072Z</updated>
+    <updated>2021-12-30T03:21:56.893Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;1-首先电脑中安装nginx&quot;&gt;&lt;a href=&quot;#1-首先电脑中安装nginx&quot; class=&quot;headerlink&quot; title=&quot;1.首先电脑中安装nginx&quot;&gt;&lt;/a&gt;1.首先电脑中安装nginx&lt;/h4&gt;&lt;p&gt;官方网站下载地址： &lt;a</summary>
-        
-      
+    <summary type="html">&lt;h4 id=&quot;1-首先电脑中安装nginx&quot;&gt;&lt;a href=&quot;#1-首先电脑中安装nginx&quot; class=&quot;headerlink&quot; title=&quot;1.首先电脑中安装nginx&quot;&gt;&lt;/a&gt;1.首先电脑中安装nginx&lt;/h4&gt;&lt;p&gt;官方网站下载地址： &lt;a href=&quot;https://nginx.org/en/download.html&quot;&gt;https://nginx.org/en/download.html&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -441,20 +441,13 @@
   
   <entry>
     <title>使用NodeJS实现JWT原理</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/20/nodejs/2020-11-20-node-shi-yong-nodejs-shi-xian-jwt-yuan-li/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/11/20/nodejs/2020-11-20-node-shi-yong-nodejs-shi-xian-jwt-yuan-li/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/6c8d1a62/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/6c8d1a62/</id>
     <published>2020-11-20T02:30:14.000Z</published>
-    <updated>2021-12-29T01:01:42.999Z</updated>
+    <updated>2021-12-30T03:22:21.377Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token&lt;/p&gt;
-&lt;h4 id=&quot;1、为什么需要会话管理&quot;&gt;&lt;a href=&quot;#1、为什么需要会话管理&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token&lt;/p&gt;</summary>
     
     
     
@@ -469,19 +462,13 @@
   
   <entry>
     <title>Performance前端性能监控</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/9ad0612b/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/9ad0612b/</id>
     <published>2020-11-11T04:22:39.000Z</published>
-    <updated>2021-12-29T08:26:02.919Z</updated>
+    <updated>2021-12-30T03:20:30.281Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;什么是performance&quot;&gt;&lt;a href=&quot;#什么是performance&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;什么是performance&quot;&gt;&lt;a href=&quot;#什么是performance&quot; class=&quot;headerlink&quot; title=&quot;什么是performance&quot;&gt;&lt;/a&gt;什么是performance&lt;/h3&gt;&lt;p&gt;performance可以获取到当前页面中与性能相关的信息，可以检测到白屏时间、首屏时间、用户可操作的时间节点、页面总下载的时间、DNS查询的时间、TCP链接的时间等。&lt;/p&gt;</summary>
     
     
     
@@ -496,19 +483,13 @@
   
   <entry>
     <title>Vue项目首屏加载速度优化</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/vue/2020-11-11-vue-xiang-mu-shou-ping-jia-zai-su-du-you-hua/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/vue/2020-11-11-vue-xiang-mu-shou-ping-jia-zai-su-du-you-hua/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/631a886/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/631a886/</id>
     <published>2020-11-11T02:33:14.000Z</published>
-    <updated>2021-12-29T07:54:23.292Z</updated>
+    <updated>2021-12-30T03:22:44.947Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;路由懒加载&quot;&gt;&lt;a href=&quot;#路由懒加载&quot; class=&quot;headerlink&quot; title=&quot;路由懒加载&quot;&gt;&lt;/a&gt;路由懒加载&lt;/h3&gt;&lt;h4 id=&quot;1-作用&quot;&gt;&lt;a href=&quot;#1-作用&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;路由懒加载&quot;&gt;&lt;a href=&quot;#路由懒加载&quot; class=&quot;headerlink&quot; title=&quot;路由懒加载&quot;&gt;&lt;/a&gt;路由懒加载&lt;/h3&gt;&lt;h4 id=&quot;1-作用&quot;&gt;&lt;a href=&quot;#1-作用&quot; class=&quot;headerlink&quot; title=&quot;1.作用&quot;&gt;&lt;/a&gt;1.作用&lt;/h4&gt;&lt;p&gt;提升用户体验，提升首屏组件加载速度，解决白屏问题&lt;/p&gt;</summary>
     
     
     
@@ -523,20 +504,14 @@
   
   <entry>
     <title>vue执行打包时将代码同时生成一个压缩文件包</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/580cd3b0/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/580cd3b0/</id>
     <published>2020-09-25T02:32:14.000Z</published>
-    <updated>2021-12-28T08:34:18.922Z</updated>
+    <updated>2021-12-30T03:22:38.497Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;首先安装插件&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token</summary>
-        
-      
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; filemanager-webpack-plugin@2.0.5 -D&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
     
     
     
@@ -551,19 +526,13 @@
   
   <entry>
     <title>Nodejs实现批量裁剪图片功能</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/</id>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/edad572d/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/edad572d/</id>
     <published>2020-09-25T02:32:14.000Z</published>
-    <updated>2021-12-28T08:34:05.242Z</updated>
+    <updated>2021-12-30T03:22:15.125Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;1、初始化&quot;&gt;&lt;a href=&quot;#1、初始化&quot; class=&quot;headerlink&quot; title=&quot;1、初始化&quot;&gt;&lt;/a&gt;1、初始化&lt;/h4&gt;&lt;p&gt;首先新建一个 tailor-img 文件夹，接着执行 npm init -y</summary>
-        
-      
+    <summary type="html">&lt;h4 id=&quot;1、初始化&quot;&gt;&lt;a href=&quot;#1、初始化&quot; class=&quot;headerlink&quot; title=&quot;1、初始化&quot;&gt;&lt;/a&gt;1、初始化&lt;/h4&gt;&lt;p&gt;首先新建一个 tailor-img 文件夹，接着执行 npm init -y 初始化一个package.json&lt;/p&gt;</summary>
     
     
     

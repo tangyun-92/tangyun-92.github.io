@@ -14,10 +14,11 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"github.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="大鹏一日同风起 扶摇直上九万里">
@@ -136,17 +137,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">39</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">12</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">27</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -190,6 +191,9 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/tangyun-92/tangyun-92.github.io" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
 
     <main class="main">
@@ -203,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2021/05/26/vue/2021-05-26-vue-axios-jiang-hou-duan-fan-hui-de-tu-pian-liu-xian-shi-dao-img-zhong/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/2cf7efe9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -217,7 +221,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/26/vue/2021-05-26-vue-axios-jiang-hou-duan-fan-hui-de-tu-pian-liu-xian-shi-dao-img-zhong/" class="post-title-link" itemprop="url">vue+axios将后端返回的图片流显示到img中</a>
+            <a href="/post/2cf7efe9/" class="post-title-link" itemprop="url">vue+axios将后端返回的图片流显示到img中</a>
         </h2>
 
         <div class="post-meta">
@@ -229,13 +233,6 @@
 
               <time title="创建时间：2021-05-26 10:34:14" itemprop="dateCreated datePublished" datetime="2021-05-26T10:34:14+08:00">2021-05-26</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:34:27" itemprop="dateModified" datetime="2021-12-28T16:34:27+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -246,13 +243,20 @@
                 </span>
             </span>
 
-          
-            <span id="/2021/05/26/vue/2021-05-26-vue-axios-jiang-hou-duan-fan-hui-de-tu-pian-liu-xian-shi-dao-img-zhong/" class="post-meta-item leancloud_visitors" data-flag-title="vue+axios将后端返回的图片流显示到img中" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>280</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -264,7 +268,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <pre class="line-numbers language-js" data-language="js"><code class="language-js">axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"接口地址"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+          <span id="more"></span>
+
+<pre class="line-numbers language-js" data-language="js"><code class="language-js">axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"接口地址"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
   responseType<span class="token operator">:</span> <span class="token string">"arraybuffer"</span><span class="token punctuation">,</span>
   params<span class="token operator">:</span> 传给后端的数据
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
@@ -300,7 +306,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2021/03/22/javascript/2021-03-22-js-jie-liu-yu-fang-dou-han-shu-de-shi-xian/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/60fbdbc1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -314,7 +320,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/03/22/javascript/2021-03-22-js-jie-liu-yu-fang-dou-han-shu-de-shi-xian/" class="post-title-link" itemprop="url">节流与防抖函数的实现</a>
+            <a href="/post/60fbdbc1/" class="post-title-link" itemprop="url">节流与防抖函数的实现</a>
         </h2>
 
         <div class="post-meta">
@@ -326,13 +332,6 @@
 
               <time title="创建时间：2021-03-22 17:22:39" itemprop="dateCreated datePublished" datetime="2021-03-22T17:22:39+08:00">2021-03-22</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:32:03" itemprop="dateModified" datetime="2021-12-28T16:32:03+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -343,13 +342,20 @@
                 </span>
             </span>
 
-          
-            <span id="/2021/03/22/javascript/2021-03-22-js-jie-liu-yu-fang-dou-han-shu-de-shi-xian/" class="post-meta-item leancloud_visitors" data-flag-title="节流与防抖函数的实现" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>776</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -377,37 +383,14 @@
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="防抖函数"><a href="#防抖函数" class="headerlink" title="防抖函数"></a>防抖函数</h3><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">/**
-* @param {Function} fn 函数
-*	@param {Number} time 延迟执行毫秒数
-* @param {Boolean} immediate true - 立即执行 false - 延迟执行
-*/</span>
-<span class="token keyword">function</span> <span class="token function">debounce</span><span class="token punctuation">(</span><span class="token parameter">fn<span class="token punctuation">,</span> time <span class="token operator">=</span> <span class="token number">1000</span><span class="token punctuation">,</span> immediate <span class="token operator">=</span> <span class="token boolean">true</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	<span class="token keyword">let</span> timer
-  <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  	<span class="token keyword">const</span> that <span class="token operator">=</span> <span class="token keyword">this</span>
-    <span class="token keyword">const</span> args <span class="token operator">=</span> arguments
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>timer<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    	<span class="token keyword">return</span> <span class="token function">clearTimeout</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>immediate<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    	<span class="token keyword">const</span> callNow <span class="token operator">=</span> <span class="token operator">!</span>timer
-      timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-      	timer <span class="token operator">=</span> <span class="token keyword">null</span>
-      <span class="token punctuation">}</span><span class="token punctuation">,</span> time<span class="token punctuation">)</span>
-      <span class="token keyword">if</span> <span class="token punctuation">(</span>callNow<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      	<span class="token function">fn</span><span class="token punctuation">.</span><span class="token function">apply</span><span class="token punctuation">(</span>that<span class="token punctuation">,</span> args<span class="token punctuation">)</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-    	timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-      	<span class="token function">fn</span><span class="token punctuation">.</span><span class="token function">apply</span><span class="token punctuation">(</span>that<span class="token punctuation">,</span> args<span class="token punctuation">)</span>
-      <span class="token punctuation">}</span><span class="token punctuation">,</span> time<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/60fbdbc1/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -426,7 +409,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/dd45473f/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -440,7 +423,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/" class="post-title-link" itemprop="url">配置nginx反向代理-解决前后端跨域问题</a>
+            <a href="/post/dd45473f/" class="post-title-link" itemprop="url">配置nginx反向代理-解决前后端跨域问题</a>
         </h2>
 
         <div class="post-meta">
@@ -452,13 +435,6 @@
 
               <time title="创建时间：2021-01-06 15:42:14" itemprop="dateCreated datePublished" datetime="2021-01-06T15:42:14+08:00">2021-01-06</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-29 16:24:25" itemprop="dateModified" datetime="2021-12-29T16:24:25+08:00">2021-12-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -469,13 +445,20 @@
                 </span>
             </span>
 
-          
-            <span id="/2021/01/06/nginx/2021-01-06-nginx-pei-zhi-nginx-fan-xiang-dai-li-jie-jue-qian-hou-duan-kua-yu-wen-ti/" class="post-meta-item leancloud_visitors" data-flag-title="配置nginx反向代理-解决前后端跨域问题" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>497</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -488,36 +471,14 @@
 
       
           <h4 id="1-首先电脑中安装nginx"><a href="#1-首先电脑中安装nginx" class="headerlink" title="1.首先电脑中安装nginx"></a>1.首先电脑中安装nginx</h4><p>官方网站下载地址： <a target="_blank" rel="noopener" href="https://nginx.org/en/download.html">https://nginx.org/en/download.html</a></p>
-<h4 id="2-解压下载后的文件，目录如下"><a href="#2-解压下载后的文件，目录如下" class="headerlink" title="2.解压下载后的文件，目录如下"></a>2.解压下载后的文件，目录如下</h4><!-- ![img](/images/posts/2020-01-06-nginx.png)  -->
-<p><img src="https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/2020-01-06-nginx.png?raw=true" alt="img"></p>
-<h4 id="3-打开conf文件夹下的nginx-conf"><a href="#3-打开conf文件夹下的nginx-conf" class="headerlink" title="3.打开conf文件夹下的nginx.conf"></a>3.打开conf文件夹下的nginx.conf</h4><p>找到如下代码注释</p>
-<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">#location / {
-#    root   html;
-#    index  index.html index.htm;
-#}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>找到如下代码修改</p>
-<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">server {
-    listen       8080;
-    server_name  localhost;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<p>接着新增</p>
-<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">location / {
-    proxy_pass http://localhost:8001;
-}
-
-location /api/ {
-    proxy_pass http://localhost:8000;
-    proxy_set_header Host $host;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>其中：</p>
-<ul>
-<li>proxy_pass <a target="_blank" rel="noopener" href="http://localhost:8001/">http://localhost:8001</a>; 表示前端被代理的域名与端口</li>
-<li>proxy_pass <a target="_blank" rel="noopener" href="http://localhost:8000/">http://localhost:8000</a>; 表示后端api接口的地址</li>
-</ul>
-<h4 id="4-点击nginx-exe文件启动nginx"><a href="#4-点击nginx-exe文件启动nginx" class="headerlink" title="4.点击nginx.exe文件启动nginx"></a>4.点击nginx.exe文件启动nginx</h4><p>现在访问localhost:8080就不会出现跨域的问题了</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/dd45473f/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -536,7 +497,7 @@ location /api/ {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/20/nodejs/2020-11-20-node-shi-yong-nodejs-shi-xian-jwt-yuan-li/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/6c8d1a62/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -550,7 +511,7 @@ location /api/ {
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/11/20/nodejs/2020-11-20-node-shi-yong-nodejs-shi-xian-jwt-yuan-li/" class="post-title-link" itemprop="url">使用NodeJS实现JWT原理</a>
+            <a href="/post/6c8d1a62/" class="post-title-link" itemprop="url">使用NodeJS实现JWT原理</a>
         </h2>
 
         <div class="post-meta">
@@ -562,13 +523,6 @@ location /api/ {
 
               <time title="创建时间：2020-11-20 10:30:14" itemprop="dateCreated datePublished" datetime="2020-11-20T10:30:14+08:00">2020-11-20</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-29 09:01:42" itemprop="dateModified" datetime="2021-12-29T09:01:42+08:00">2021-12-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -579,13 +533,20 @@ location /api/ {
                 </span>
             </span>
 
-          
-            <span id="/2020/11/20/nodejs/2020-11-20-node-shi-yong-nodejs-shi-xian-jwt-yuan-li/" class="post-meta-item leancloud_visitors" data-flag-title="使用NodeJS实现JWT原理" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -598,176 +559,14 @@ location /api/ {
 
       
           <p>JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token</p>
-<h4 id="1、为什么需要会话管理"><a href="#1、为什么需要会话管理" class="headerlink" title="1、为什么需要会话管理"></a>1、为什么需要会话管理</h4><p>我们用 nodejs 为前端或者其他服务提供 resful 接口时，http 协议他是一个无状态的协议，有时候我们需要根据这个请求的上下获取具体的用户是否有权限，针对用户的上下文进行操作。所以cookies session还有 jwt 这几种技术的出现，都是对HTTP协议的一个补充。使得我们可以用HTTP协议+状态管理构建一个面向用户的WEB应用。</p>
-<h4 id="2、session和cookie"><a href="#2、session和cookie" class="headerlink" title="2、session和cookie"></a>2、session和cookie</h4><p>session和cookies是有联系的，session就是服务端在客户端cookies种下的session_id，服务端保存session_id所对应的当前用户所有的状态信息。每次客户端请求服务端都带上cookies中的session_id，服务端判断是否有具体的用户信息，如果没有就跳转到登录。</p>
-<ul>
-<li><p>cookies安全性不好，攻击者可以通过获取本地cookies进行欺骗或者利用cookies进行CSRF攻击</p>
-</li>
-<li><p>cookies在多个域名下，会存在跨域问题</p>
-</li>
-<li><p>session的信息是保存在服务端上面的，当我们nodejs在stke部署多台计算器的时候，需要解决共享session，所以引出来session持久化问题，所以session不支持分布式架构，无法支持横向扩展，只能通过数据库来保存会话数据实现共享。如果持久层失败会出现认证失败。</p>
-</li>
-</ul>
-<h4 id="3、JWT的定义"><a href="#3、JWT的定义" class="headerlink" title="3、JWT的定义"></a>3、JWT的定义</h4><p>jwt是json web token的全称，他解决了session以上的问题，优点是服务器不保存任何会话数据，即服务器变为无状态，使其更容易扩展，什么情况下使用jwt比较合适，我觉得就是授权这个场景，因为jwt使用起来轻便，开销小，后端无状态，所以使用比较广泛。</p>
-<h4 id="4、JWT的原理"><a href="#4、JWT的原理" class="headerlink" title="4、JWT的原理"></a>4、JWT的原理</h4><p>JWT 的原理是，服务器认证以后，生成一个 JSON 对象，发回给用户，就像下面这样。</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-
-    <span class="token property">"姓名"</span><span class="token operator">:</span> <span class="token string">"张三"</span><span class="token punctuation">,</span>
-
-    <span class="token property">"角色"</span><span class="token operator">:</span> <span class="token string">"管理员"</span><span class="token punctuation">,</span>
-
-    <span class="token property">"到期时间"</span><span class="token operator">:</span> <span class="token string">"2020年11月20日0点0分"</span>
-
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>以后，用户与服务端通信的时候，都要发回这个 JSON 对象。服务器完全只靠这个对象认定用户身份。为了防止用户篡改数据，服务器在生成这个对象的时候，会加上签名。</p>
-<h4 id="5、JWT的认证流程"><a href="#5、JWT的认证流程" class="headerlink" title="5、JWT的认证流程"></a>5、JWT的认证流程</h4><p>JWT的流程说明：</p>
-<ol>
-<li>浏览器发起请求登陆，携带用户名和密码</li>
-<li>服务端根据用户名和密码到数据库验证身份，根据算法，将用户标识符打包生成 token</li>
-<li>服务器返回JWT信息给浏览器，JWT不应该包含敏感信息，这是很重要的一点</li>
-<li>浏览器发起请求获取用户资料，把刚刚拿到的 token一起发送给服务器，一般放在header里面，字段为authorization</li>
-<li>服务器发现数据中有 token，decode token的信息，然后再次签名，验明正身</li>
-<li>服务器返回该用户的用户资料</li>
-<li>服务器可以在payload设置过期时间， 如果过期了，可以让客户端重新发起验证</li>
-</ol>
-<h4 id="6、JWT的数据结构"><a href="#6、JWT的数据结构" class="headerlink" title="6、JWT的数据结构"></a>6、JWT的数据结构</h4><p>JWT 包含了使用<code>.</code>风格的三个部分，包含header（头部）、Payload（荷载）以及 Signature（签名）</p>
-<h5 id="6-1-Header头部"><a href="#6-1-Header头部" class="headerlink" title="6.1 Header头部"></a>6.1 Header头部</h5><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span><span class="token property">"alg"</span><span class="token operator">:</span> <span class="token string">"HS256"</span><span class="token punctuation">,</span><span class="token property">"typ"</span><span class="token operator">:</span> <span class="token string">"JWT"</span><span class="token punctuation">}</span>
-<span class="token comment">// algorithm =&gt; HMAC SHA256// type =&gt; JWT</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>这是固定的写法，alg表面要用的是HS256算法</p>
-<h5 id="6-2-Payload负载、载荷"><a href="#6-2-Payload负载、载荷" class="headerlink" title="6.2 Payload负载、载荷"></a>6.2 Payload负载、载荷</h5><p>JWT规定了7个官方字段</p>
-<pre class="line-numbers language-plain" data-language="plain"><code class="language-plain">iss (issuer)：签发人
-exp (expiration time)：过期时间
-sub (subject)：主题
-aud (audience)：受众
-nbf (Not Before)：生效时间
-iat (Issued At)：签发时间
-jti (JWT ID)：编号<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>除了这七个，可以自定义，比如过期时间</p>
-<h5 id="6-3-Signature签名"><a href="#6-3-Signature签名" class="headerlink" title="6.3 Signature签名"></a>6.3 Signature签名</h5><p>对前两部分header和payload进行签名，防止数据篡改</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token constant">HMACSHA256</span><span class="token punctuation">(</span>
-  <span class="token function">base64UrlEncode</span><span class="token punctuation">(</span>header<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"."</span> <span class="token operator">+</span>
-  <span class="token function">base64UrlEncode</span><span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">,</span>
-  secret<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>secret是一段字符串，后端保存，需要注意的是 JWT 作为一个令牌 token，有些场合可能会放到 URL（比如 api.example.com/?token=xxx）。Base64 有三个字符+、/和=，在 URL 里面有特殊含义，所以要被替换掉：=被省略、+替换成-，/替换成_ 。这就是 Base64URL 算法。</p>
-<h4 id="7、jwt使用方式"><a href="#7、jwt使用方式" class="headerlink" title="7、jwt使用方式"></a>7、jwt使用方式</h4><p>HTTP 请求的头信息<code>Authorization</code>字段里面, Bearer也是规定好的</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">Authorization<span class="token operator">:</span> Bearer <span class="token operator">&lt;</span>token<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>通过url传输（不推荐）</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>www<span class="token punctuation">.</span>xxx<span class="token punctuation">.</span>com<span class="token operator">/</span>pwa<span class="token operator">?</span>token<span class="token operator">=</span>xxxxx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>如果是post请求也可以放在请求体中</p>
-<h4 id="8、在koa项目中使用"><a href="#8、在koa项目中使用" class="headerlink" title="8、在koa项目中使用"></a>8、在koa项目中使用</h4><p>可以使用现成库，<code>jwt-simple</code> 或者 <code>jsonwebtoken</code></p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">let</span> Koa <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> Router <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-router'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> bodyparser <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-bodyparser'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> jwt <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'jwt-simple'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> router <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">let</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Koa</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">bodyparser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// 可以自己自定义</span>
-<span class="token keyword">let</span> secret <span class="token operator">=</span> <span class="token string">'zhenglei'</span><span class="token punctuation">;</span>
-<span class="token comment">// 验证是否登陆</span>
-router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/login'</span><span class="token punctuation">,</span><span class="token keyword">async</span><span class="token punctuation">(</span><span class="token parameter">ctx</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span> 
-    <span class="token keyword">let</span> <span class="token punctuation">{</span>username<span class="token punctuation">,</span>password<span class="token punctuation">}</span> <span class="token operator">=</span> ctx<span class="token punctuation">.</span>request<span class="token punctuation">.</span>body<span class="token punctuation">;</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span>username <span class="token operator">===</span> <span class="token string">'admin'</span> <span class="token operator">&amp;&amp;</span> password <span class="token operator">===</span> <span class="token string">'admin'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-       <span class="token comment">// 通常会查数据库，这里简单的演示</span>
-       <span class="token keyword">let</span> token <span class="token operator">=</span>  jwt<span class="token punctuation">.</span><span class="token function">encode</span><span class="token punctuation">(</span>username<span class="token punctuation">,</span> secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
-       ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
-            code<span class="token operator">:</span><span class="token number">200</span><span class="token punctuation">,</span>
-            username<span class="token punctuation">,</span>
-            token<span class="token punctuation">,</span>
-       <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// 验证是否有权限</span>
-router<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/validate'</span><span class="token punctuation">,</span><span class="token keyword">async</span><span class="token punctuation">(</span><span class="token parameter">ctx</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span> 
-    <span class="token keyword">let</span> Authorization <span class="token operator">=</span> ctx<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'authorization'</span><span class="token punctuation">)</span>
-    <span class="token keyword">let</span> <span class="token punctuation">[</span><span class="token punctuation">,</span>token<span class="token punctuation">]</span> <span class="token operator">=</span> Authorization<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span>token<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">try</span><span class="token punctuation">{</span>
-            <span class="token keyword">let</span> r <span class="token operator">=</span> jwt<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span>token<span class="token punctuation">,</span>secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
-                code<span class="token operator">:</span><span class="token number">200</span><span class="token punctuation">,</span>
-                username<span class="token operator">:</span>r<span class="token punctuation">,</span>
-                token
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span><span class="token keyword">catch</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
-                code<span class="token operator">:</span><span class="token number">401</span><span class="token punctuation">,</span>
-                data<span class="token operator">:</span><span class="token string">'没有登陆'</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-        ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
-            code<span class="token operator">:</span><span class="token number">401</span><span class="token punctuation">,</span>
-            data<span class="token operator">:</span><span class="token string">'没有登陆'</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-  
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>router<span class="token punctuation">.</span><span class="token function">routes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">4000</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<ol>
-<li>实现两个接口 一个是<code>/login</code> 验证是否登录，一个是 <code>validate</code>,验证是否有权限</li>
-<li>请求login接口的时候，客户端带username和password, 后端一般会查数据库，验证是否存在当前用户，如果存在则为username进行签名，千万不要给password这些敏感信息也带进来签名</li>
-<li>客户端接收后端给的token令牌，再请求其他接口，比如这个例子的<code>/validate</code>的时候，ajax请求的时候，可以在header指定<code>authorization</code>字段，后端拿到token进行decode，然后将header和payload进行再一次的签名，如果前后的签名一致，说明没有被篡改过，则权限验证通过。因为是同步的过程，所以可以用try catch来捕捉错误</li>
-</ol>
-<h4 id="9、原理的实现"><a href="#9、原理的实现" class="headerlink" title="9、原理的实现"></a>9、原理的实现</h4><ol>
-<li><p>sha256哈希算法，可以用nodejs的内置加密模块crypto, 生成base64字符串，要注意的是生成base64需要为+ - = 做一下替换，=被省略、+替换成-，/替换成_ 。这就是 Base64URL 算法。</p>
-</li>
-<li><p>token令牌的组成是header, payload和sigin的通过<code>.</code>来组成</p>
-</li>
-<li><p>base64urlUnescape 的解码是固定写法，decode出base64的内容</p>
-</li>
-</ol>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">let</span> myJwt <span class="token operator">=</span> <span class="token punctuation">{</span>
-    <span class="token function">sign</span><span class="token punctuation">(</span><span class="token parameter">content<span class="token punctuation">,</span>secret</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">let</span> r <span class="token operator">=</span> crypto<span class="token punctuation">.</span><span class="token function">createHmac</span><span class="token punctuation">(</span><span class="token string">'sha256'</span><span class="token punctuation">,</span>secret<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">digest</span><span class="token punctuation">(</span><span class="token string">'base64'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">base64urlEscape</span><span class="token punctuation">(</span>r<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">base64urlEscape</span><span class="token punctuation">(</span><span class="token parameter">str</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> str<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\+</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">'-'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\/</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">'_'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">=</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">toBase64</span><span class="token punctuation">(</span><span class="token parameter">content</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">base64urlEscape</span><span class="token punctuation">(</span>Buffer<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token string">'base64'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">encode</span><span class="token punctuation">(</span><span class="token parameter">username<span class="token punctuation">,</span>secret</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">let</span> header <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">toBase64</span><span class="token punctuation">(</span><span class="token punctuation">{</span> typ<span class="token operator">:</span> <span class="token string">'JWT'</span><span class="token punctuation">,</span> alg<span class="token operator">:</span> <span class="token string">'HS256'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">let</span> content <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">toBase64</span><span class="token punctuation">(</span>username<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">let</span> sign <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token punctuation">[</span>header<span class="token punctuation">,</span>content<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span>  <span class="token punctuation">[</span>header<span class="token punctuation">,</span>content<span class="token punctuation">,</span>sign<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">base64urlUnescape</span><span class="token punctuation">(</span><span class="token parameter">str</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        str <span class="token operator">+=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token number">5</span> <span class="token operator">-</span> str<span class="token punctuation">.</span>length <span class="token operator">%</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'='</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> str<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\-</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">'+'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">_</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token function">decode</span><span class="token punctuation">(</span><span class="token parameter">token<span class="token punctuation">,</span>secret</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">let</span> <span class="token punctuation">[</span>header<span class="token punctuation">,</span>content<span class="token punctuation">,</span>sign<span class="token punctuation">]</span> <span class="token operator">=</span> token<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">let</span> newSign <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token punctuation">[</span>header<span class="token punctuation">,</span>content<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>sign <span class="token operator">===</span> newSign<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">return</span> Buffer<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">base64urlUnescape</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">'base64'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'被篡改'</span><span class="token punctuation">)</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h4 id="10、JWT的优缺点"><a href="#10、JWT的优缺点" class="headerlink" title="10、JWT的优缺点"></a>10、JWT的优缺点</h4><ol>
-<li>JWT默认不加密，但可以加密。生成原始令牌后，可以使用改令牌再次对其进行加密。</li>
-<li>当JWT未加密方法时，一些私密数据无法通过JWT传输。</li>
-<li>JWT不仅可用于认证，还可用于信息交换。善用JWT有助于减少服务器请求数据库的次数。</li>
-<li>JWT的最大缺点是服务器不保存会话状态，所以在使用期间不可能取消令牌或更改令牌的权限。也就是说，一旦JWT签发，在有效期内将会一直有效</li>
-<li>JWT本身包含认证信息，因此一旦信息泄露，任何人都可以获得令牌的所有权限。为了减少盗用，JWT的有效期不宜设置太长。对于某些重要操作，用户在使用时应该每次都进行进行身份验证。</li>
-<li>为了减少盗用和窃取，JWT不建议使用HTTP协议来传输代码，而是使用加密的HTTPS协议进行传输。</li>
-</ol>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/6c8d1a62/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -786,7 +585,7 @@ app<span class="token punctuation">.</span><span class="token function">listen</
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/9ad0612b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -800,7 +599,7 @@ app<span class="token punctuation">.</span><span class="token function">listen</
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/" class="post-title-link" itemprop="url">Performance前端性能监控</a>
+            <a href="/post/9ad0612b/" class="post-title-link" itemprop="url">Performance前端性能监控</a>
         </h2>
 
         <div class="post-meta">
@@ -812,13 +611,6 @@ app<span class="token punctuation">.</span><span class="token function">listen</
 
               <time title="创建时间：2020-11-11 12:22:39" itemprop="dateCreated datePublished" datetime="2020-11-11T12:22:39+08:00">2020-11-11</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-29 16:26:02" itemprop="dateModified" datetime="2021-12-29T16:26:02+08:00">2021-12-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -829,13 +621,20 @@ app<span class="token punctuation">.</span><span class="token function">listen</
                 </span>
             </span>
 
-          
-            <span id="/2020/11/11/xing-neng/2020-11-11-performance-qian-duan-xing-neng-jian-kong/" class="post-meta-item leancloud_visitors" data-flag-title="Performance前端性能监控" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
             </span>
 
         </div>
@@ -848,185 +647,14 @@ app<span class="token punctuation">.</span><span class="token function">listen</
 
       
           <h3 id="什么是performance"><a href="#什么是performance" class="headerlink" title="什么是performance"></a>什么是performance</h3><p>performance可以获取到当前页面中与性能相关的信息，可以检测到白屏时间、首屏时间、用户可操作的时间节点、页面总下载的时间、DNS查询的时间、TCP链接的时间等。</p>
-<h3 id="前端性能主要测试点"><a href="#前端性能主要测试点" class="headerlink" title="前端性能主要测试点"></a>前端性能主要测试点</h3><ul>
-<li><p><strong>白屏时间</strong>：从打开网站到有内容渲染出来的时间点</p>
-</li>
-<li><p><strong>首屏时间</strong>：首屏内容渲染完毕的时间节点</p>
-</li>
-<li><p><strong>用户可操作时间节点</strong>：domready触发节点</p>
-</li>
-<li><p><strong>总下载时间</strong>：window.onload的触发节点</p>
-</li>
-</ul>
-<p>新建个demo.html</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>performance演示<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
-    <span class="token keyword">var</span> performance <span class="token operator">=</span> window<span class="token punctuation">.</span>performance <span class="token operator">||</span> window<span class="token punctuation">.</span>msPerformance <span class="token operator">||</span> window<span class="token punctuation">.</span>webkitPerformance
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>performance<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>performance<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>此时在控制台打印出如下信息：</p>
-<!-- ![array.png](/images/posts/performance-2020.png) -->
-<p><img src="https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/performance-2020.png?raw=true" alt="img"></p>
-<p>其中 memory 是和内存相关的，navigation 是指来源相关的，timing是关键点时间。</p>
-<ul>
-<li><p><strong>performance.memory</strong> 含义是显示此刻内存占用的情况</p>
-</li>
-<li><ul>
-<li><strong>jsHeapSizeLimit</strong> 表示内存大小的限制</li>
-<li><strong>totalJSHeapSize</strong> 表示总内存的大小</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>usedJSHeapSize</strong> 表示可使用的内存大小</li>
-<li>如果 usedJSHeadSize 大于 totalJSHeadSize 的话，那么会出现内存泄露的问题，因此不允许出现这种情况</li>
-</ul>
-</li>
-<li><p><strong>performance.navigation</strong> 含义是页面的来源信息</p>
-</li>
-<li><ul>
-<li><strong>redirectCount</strong> 如果有重定向，页面通过几次重定向跳转而来，默认为0</li>
-<li><strong>type</strong> 表示页面打开方式，默认为0，可取值为0、1、2、255</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><strong>0</strong> (TYPE_NAVIGATE) 表示正常进入该页面（非刷新、非重定向）</li>
-<li><strong>1</strong> (TYPE_RELOAD) 表示通过window.location.reload刷新的页面</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><strong>2</strong> (TYPE_BACK_FORWARD) 表示通过浏览器的前进、后退按钮进入的页面</li>
-<li><strong>255</strong> (TYPE_RESERVED) 表示非以上方式进入页面</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>performance.onresourcetimingbufferfull</strong> 一个回调函数，会在浏览器的资源时间性能缓冲区满了的时候执行</p>
-</li>
-<li><p><strong>performance.timeOrigin</strong> 是一系列时间点的基准点，精确到万分之一毫秒，动态的，刷新页面会改变</p>
-</li>
-<li><p><strong>performance.timing</strong> 是一系列关键时间点，包含网络、解析等一系列时间数据</p>
-</li>
-<li><ul>
-<li><strong>navigationStart</strong> 同一个浏览器上一个页面卸载结束时的时间戳。如果没有上一个页面，那么该值会和fetchStart的值相同</li>
-<li><strong>redirectStart</strong> 第一个http重定向开始的时间戳，如果没有重定向，或重定向到同一个不同的源，那么返回0</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>redirectEnd</strong> 最后一个http重定向完成时的时间戳。如果没有重定向，或重定向到一个不同的源，那么返回为0</li>
-<li><strong>fetchStart</strong> 浏览器准备好使用http请求抓取文档的时间（发生在检查本地缓存之前）</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>domainLookupStart</strong> DNS域名查询开始时间，如果使用了本地缓存或持久链接，该值则与fetchStart相同</li>
-<li><strong>domainLookupEnd</strong> DNS域名查询结束时间，如果使用了本地缓存或持久链接，该值则与fetchStart相同</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>connectStart</strong> http开始建立连接的时间，如果是持久链接的话，该值和fetchStart值相同，如果再在传输层发生了错误且需要重新建立链接的话，那么在这里显示的是新建立的链接开始时间</li>
-<li><strong>secureConnectionStart</strong> https链接开始的时间，如果不是安全链接，则值为0</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>connectEnd</strong> http完成建立链接的时间（完成握手），如果是持久链接的话，该值和fetchStart值相同，如果再在传输层发生了错误且需要重新建立链接的话，那么在这里显示的是新建立的链接开始时间</li>
-<li><strong>requestStart</strong> http请求读取真实文档开始的时间，包括从本地读取缓存，链接错误重连时</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>responseStart</strong> 开始接收到响应的时间（获取到第一个字节的时候），包括从本地读取缓存</li>
-<li><strong>responseEnd</strong> http响应全部接收完成时的时间（获取到最后一个字节）包括从本地读取缓存</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>unloadEventStart</strong> 前一个网页（和当前页面同域）unload的时间戳，如果没有前一个网页或前一个网页是不同的域的话，那么该值为0</li>
-<li><strong>unloadEventEnd</strong> 与unloadEventStart对应，返回是前一个网页unload事件绑定的回调函数执行完毕时间戳</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>domLoading</strong> 开始解析渲染DOM树的时间</li>
-<li><strong>domInteractive</strong> 完成解析DOM树的时间（只是DOM树解析完成，但是并没有开始加载网页的资源）</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>domContentLoadedEventStart</strong> DOM解析完成后，网页内资源加载开始的时间</li>
-<li><strong>domContentLoadedEventEnd</strong> DOM解析完成后，网页内资源加载完成的时间</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>domComplete</strong> DOM树解析完成，且资源也准备就绪的时间。Document.readyState变为complete，并将抛出readystatechange相关事件</li>
-<li><strong>loadEventStart</strong> load事件发送给文档。也即load回调函数开始执行的时间，如果没有绑定load事件，则该值为0</li>
-</ul>
-</li>
-<li><ul>
-<li><strong>loadEventEnd</strong> load事件的回调函数执行完毕时间，如果没有绑定load事件，该值为0</li>
-</ul>
-</li>
-</ul>
-<h3 id="测试点代码"><a href="#测试点代码" class="headerlink" title="测试点代码"></a>测试点代码</h3><pre class="line-numbers language-js" data-language="js"><code class="language-js">重定向耗时 <span class="token operator">=</span> redirectEnd <span class="token operator">-</span> redirectStart
-<span class="token constant">DNS</span>查询耗时 <span class="token operator">=</span> domainLookupEnd <span class="token operator">-</span> domainLookupStart
-<span class="token constant">TCP</span>链接耗时 <span class="token operator">=</span> connectEnd <span class="token operator">-</span> connectStart
-<span class="token constant">HTTP</span>请求耗时 <span class="token operator">=</span> responseEnd <span class="token operator">-</span> responseStart
-解析dom树耗时 <span class="token operator">=</span> domComplete <span class="token operator">-</span> domInteractive
-白屏时间 <span class="token operator">=</span> responseStart <span class="token operator">-</span> navigationStart
-DOMready时间 <span class="token operator">=</span> domContentLoadedEventEnd <span class="token operator">-</span> navigationStart
-onload时间 <span class="token operator">=</span> loadEventEnd <span class="token operator">-</span> navigationStart<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="封装计算方式"><a href="#封装计算方式" class="headerlink" title="封装计算方式"></a>封装计算方式</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">getPerformanceTiming</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	<span class="token keyword">var</span> performance <span class="token operator">=</span> window<span class="token punctuation">.</span>performance
-  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>performance<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'你的浏览器不支持performance属性'</span><span class="token punctuation">)</span>
-    <span class="token keyword">return</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">var</span> t <span class="token operator">=</span> performance<span class="token punctuation">.</span>timing
-  <span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
-  	timing<span class="token operator">:</span> performance<span class="token punctuation">.</span>timing
-  <span class="token punctuation">}</span>
-  <span class="token comment">// 重定向耗时</span>
-  obj<span class="token punctuation">.</span>redirectTime <span class="token operator">=</span> t<span class="token punctuation">.</span>redirectEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>redirectStart
-  
-  <span class="token comment">// DNS查询耗时</span>
-  obj<span class="token punctuation">.</span>lookupDomainTime <span class="token operator">=</span> t<span class="token punctuation">.</span>domainLookupEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>domainLookupStart
-  
-  <span class="token comment">// TCP链接耗时</span>
-  obj<span class="token punctuation">.</span>connectTime <span class="token operator">=</span> t<span class="token punctuation">.</span>connectEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>connectStart
-  
-  <span class="token comment">// HTTP请求耗时</span>
-  obj<span class="token punctuation">.</span>requestTime <span class="token operator">=</span> t<span class="token punctuation">.</span>responseEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>responseStart
-  
-  <span class="token comment">// 解析dom树耗时</span>
-  obj<span class="token punctuation">.</span>domReadyTime <span class="token operator">=</span> t<span class="token punctuation">.</span>domComplete <span class="token operator">-</span> t<span class="token punctuation">.</span>domInteractive
-  
-  <span class="token comment">// 白屏时间耗时</span>
-  obj<span class="token punctuation">.</span>whiteTime <span class="token operator">=</span> t<span class="token punctuation">.</span>responseStart <span class="token operator">-</span> t<span class="token punctuation">.</span>navigationStart
-  
-  <span class="token comment">// DOMready时间</span>
-  obj<span class="token punctuation">.</span>domLoadTime <span class="token operator">=</span> t<span class="token punctuation">.</span>domContentLoadedEventEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>navigationStart
-  
-  <span class="token comment">// 页面加载完成的时间：即onload时间</span>
-  obj<span class="token punctuation">.</span>loadTime <span class="token operator">=</span> t<span class="token punctuation">.</span>loadEventEnd <span class="token operator">-</span> t<span class="token punctuation">.</span>navigationStart
-  
-  <span class="token keyword">return</span> obj
-<span class="token punctuation">}</span>
-
-<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">getPerformanceTiming</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/9ad0612b/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1045,7 +673,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/11/11/vue/2020-11-11-vue-xiang-mu-shou-ping-jia-zai-su-du-you-hua/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/631a886/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1059,7 +687,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/11/11/vue/2020-11-11-vue-xiang-mu-shou-ping-jia-zai-su-du-you-hua/" class="post-title-link" itemprop="url">Vue项目首屏加载速度优化</a>
+            <a href="/post/631a886/" class="post-title-link" itemprop="url">Vue项目首屏加载速度优化</a>
         </h2>
 
         <div class="post-meta">
@@ -1071,13 +699,6 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
               <time title="创建时间：2020-11-11 10:33:14" itemprop="dateCreated datePublished" datetime="2020-11-11T10:33:14+08:00">2020-11-11</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-29 15:54:23" itemprop="dateModified" datetime="2021-12-29T15:54:23+08:00">2021-12-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1088,13 +709,20 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 </span>
             </span>
 
-          
-            <span id="/2020/11/11/vue/2020-11-11-vue-xiang-mu-shou-ping-jia-zai-su-du-you-hua/" class="post-meta-item leancloud_visitors" data-flag-title="Vue项目首屏加载速度优化" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -1107,90 +735,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
       
           <h3 id="路由懒加载"><a href="#路由懒加载" class="headerlink" title="路由懒加载"></a>路由懒加载</h3><h4 id="1-作用"><a href="#1-作用" class="headerlink" title="1.作用"></a>1.作用</h4><p>提升用户体验，提升首屏组件加载速度，解决白屏问题</p>
-<h4 id="2-代码示例"><a href="#2-代码示例" class="headerlink" title="2.代码示例"></a>2.代码示例</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
-<span class="token keyword">import</span> Router <span class="token keyword">from</span> <span class="token string">'vue-router'</span>
-
-Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Router<span class="token punctuation">)</span>
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Router</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-	routes<span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-    	path<span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span>
-      name<span class="token operator">:</span> <span class="token string">'HelloWorld'</span><span class="token punctuation">,</span>
-      <span class="token comment">// 方法一：vue异步组件实现</span>
-      <span class="token comment">// component: resolve =&gt; (require(['@/components/HelloWorld'], resolve))</span>
-      <span class="token comment">// 方法二：import方法(常用)</span>
-      <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">'@/components/HelloWorld'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">]</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h3 id="组价懒加载"><a href="#组价懒加载" class="headerlink" title="组价懒加载"></a>组价懒加载</h3><h4 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h4><pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;template&gt;
-	&lt;div class="hello"&gt;
-    &lt;hello-world&gt;&lt;/hello-world&gt;
-    111
-  &lt;/div&gt;
-&lt;/template&gt;
-
-&lt;script&gt;
-export default {
-	components: {
-  	// 方法一
-    'HelloWorld': () =&gt; import('./HelloWorld'),
-    // 方法二
-    // HelloWorld': resolve =&gt; (['./HelloWorld'], resolve)
-  }
-}
-&lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h3 id="通过线上引入CDN链接"><a href="#通过线上引入CDN链接" class="headerlink" title="通过线上引入CDN链接"></a>通过线上引入CDN链接</h3><h4 id="1-找到项目中的index-html文件"><a href="#1-找到项目中的index-html文件" class="headerlink" title="1.找到项目中的index.html文件"></a>1.找到项目中的index.html文件</h4><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.min.js<span class="token punctuation">'</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h4 id="2-配置vue-config-js"><a href="#2-配置vue-config-js" class="headerlink" title="2.配置vue.config.js"></a>2.配置vue.config.js</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js">externals<span class="token operator">:</span> <span class="token punctuation">{</span>
-  <span class="token comment">// 键：表示导入包语法from后面跟着的名称</span>
-  <span class="token comment">// 值：表示script引入js文件时，在全局环境中的变量名称</span>
-	vue<span class="token operator">:</span> <span class="token string">'Vue'</span><span class="token punctuation">,</span>
-  axios<span class="token operator">:</span> <span class="token string">'axios'</span><span class="token punctuation">,</span>
-  <span class="token string">'vue-router'</span><span class="token operator">:</span> <span class="token string">'Router'</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h3 id="gzip暴力压缩"><a href="#gzip暴力压缩" class="headerlink" title="gzip暴力压缩"></a>gzip暴力压缩</h3><h4 id="1-nginx开启gzip模式"><a href="#1-nginx开启gzip模式" class="headerlink" title="1.nginx开启gzip模式"></a>1.nginx开启gzip模式</h4><pre class="line-numbers language-tex" data-language="tex"><code class="language-tex">server {
-	listen 8103;
-  server_name ***;
-  # 开启gzip
-  gzip on;
-  # 进行压缩的文件类型
-  gzip_types text/plain application/javascript application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/png image/gif;
-  # 是否在http header中添加Vary: Accept-Encofing,建议开启
-  gzip_vary on;
-}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="2-Vue开启gzip"><a href="#2-Vue开启gzip" class="headerlink" title="2.Vue开启gzip"></a>2.Vue开启gzip</h4><h5 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h5><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> compression-webpack-plugin@1.1.12 --save-dev<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h5 id="配置gzip"><a href="#配置gzip" class="headerlink" title="配置gzip"></a>配置gzip</h5><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">/* vue.config.js */</span>
-build<span class="token operator">:</span> <span class="token punctuation">{</span>
-	productionGzip<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  productionGzipExtensions<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'js'</span><span class="token punctuation">,</span> <span class="token string">'css'</span><span class="token punctuation">]</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h3 id="拓展：分析文件大的原因"><a href="#拓展：分析文件大的原因" class="headerlink" title="拓展：分析文件大的原因"></a>拓展：分析文件大的原因</h3><p>利用webpack-bundle-analyzer分析器，分析项目依赖关系</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">/* vue.config.js */</span>
-<span class="token keyword">const</span> BunldeAnalyzerPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'webpack-bundle-analyzer'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>BundleAnalyzerPlugin<span class="token punctuation">;</span>
-
-plugin<span class="token operator">:</span> <span class="token punctuation">[</span>
-	<span class="token keyword">new</span> <span class="token class-name">BunldeAnalyzerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>然后运行npm run build打包命令，浏览器会出现如下页面，此时我们就能看到哪些文件里面到底包含了什么东西：</p>
-<!-- ![array.png](/medias/images/posts/vue-load-speed.png) -->
-<p><img src="https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/vue-load-speed.png?raw=true" alt="array.png"></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/631a886/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1209,7 +761,7 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/580cd3b0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1223,7 +775,7 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/" class="post-title-link" itemprop="url">vue执行打包时将代码同时生成一个压缩文件包</a>
+            <a href="/post/580cd3b0/" class="post-title-link" itemprop="url">vue执行打包时将代码同时生成一个压缩文件包</a>
         </h2>
 
         <div class="post-meta">
@@ -1235,13 +787,6 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
 
               <time title="创建时间：2020-09-25 10:32:14" itemprop="dateCreated datePublished" datetime="2020-09-25T10:32:14+08:00">2020-09-25</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:34:18" itemprop="dateModified" datetime="2021-12-28T16:34:18+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1252,13 +797,20 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
                 </span>
             </span>
 
-          
-            <span id="/2020/09/25/vue/2020-09-25-vue-zhi-xing-da-bao-shi-jiang-dai-ma-tong-shi-sheng-cheng-yi-ge-ya-suo-wen-jian-bao/" class="post-meta-item leancloud_visitors" data-flag-title="vue执行打包时将代码同时生成一个压缩文件包" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>508</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -1272,35 +824,14 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
       
           <p>首先安装插件</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> filemanager-webpack-plugin@2.0.5 -D<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">const</span> FileManagerPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'filemanager-webpack-plugin'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> myDate <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> time <span class="token operator">=</span>
-  myDate<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span>
-  <span class="token string">'-'</span> <span class="token operator">+</span>
-  <span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token function">Number</span><span class="token punctuation">(</span>myDate<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span>
-  <span class="token string">'-'</span> <span class="token operator">+</span>
-  myDate<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
-  configureWebpack<span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token comment">//webpack的相关配置在这里</span>
-    plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
-      <span class="token keyword">new</span> <span class="token class-name">FileManagerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        <span class="token comment">//初始化 filemanager-webpack-plugin 插件实例</span>
-        onEnd<span class="token operator">:</span> <span class="token punctuation">{</span>
-          <span class="token keyword">delete</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-          archive<span class="token operator">:</span> <span class="token punctuation">[</span>
-            <span class="token punctuation">{</span>
-              source<span class="token operator">:</span> <span class="token string">'./dist'</span><span class="token punctuation">,</span>
-              destination<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">./</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>time<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.zip</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-          <span class="token punctuation">]</span><span class="token punctuation">,</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/580cd3b0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1319,7 +850,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/edad572d/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1333,7 +864,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/" class="post-title-link" itemprop="url">Nodejs实现批量裁剪图片功能</a>
+            <a href="/post/edad572d/" class="post-title-link" itemprop="url">Nodejs实现批量裁剪图片功能</a>
         </h2>
 
         <div class="post-meta">
@@ -1345,13 +876,6 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
               <time title="创建时间：2020-09-25 10:32:14" itemprop="dateCreated datePublished" datetime="2020-09-25T10:32:14+08:00">2020-09-25</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:34:05" itemprop="dateModified" datetime="2021-12-28T16:34:05+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1362,13 +886,20 @@ module<span class="token punctuation">.</span>exports <span class="token operato
                 </span>
             </span>
 
-          
-            <span id="/2020/09/25/nodejs/2020-09-25-node-nodejs-shi-xian-pi-liang-cai-jian-tu-pian-gong-neng/" class="post-meta-item leancloud_visitors" data-flag-title="Nodejs实现批量裁剪图片功能" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -1381,107 +912,14 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
       
           <h4 id="1、初始化"><a href="#1、初始化" class="headerlink" title="1、初始化"></a>1、初始化</h4><p>首先新建一个 tailor-img 文件夹，接着执行 npm init -y 初始化一个package.json</p>
-<h4 id="2、安装相关插件"><a href="#2、安装相关插件" class="headerlink" title="2、安装相关插件"></a>2、安装相关插件</h4><ul>
-<li><p>archiver  压缩文件</p>
-</li>
-<li><p>canvas  裁剪图片</p>
-</li>
-<li><p>glob  批量获取路径</p>
-</li>
-</ul>
-<p>npm i  archiver canvas glob –save</p>
-<h4 id="3、app-js"><a href="#3、app-js" class="headerlink" title="3、app.js"></a>3、app.js</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> <span class="token punctuation">{</span> basename <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
-<span class="token comment">// 压缩文件</span>
-<span class="token keyword">const</span> archiver <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'archiver'</span><span class="token punctuation">)</span>
-<span class="token comment">// canvas库，用于裁剪图片</span>
-<span class="token keyword">const</span> <span class="token punctuation">{</span> createCanvas<span class="token punctuation">,</span> loadImage <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'canvas'</span><span class="token punctuation">)</span>
-<span class="token comment">// 批量获取路径</span>
-<span class="token keyword">const</span> glob <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'glob'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> config <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./config'</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 根据宽高获取配置</span>
-<span class="token keyword">function</span> <span class="token function">getOptions</span><span class="token punctuation">(</span><span class="token parameter">options<span class="token punctuation">,</span> config</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token keyword">const</span> <span class="token punctuation">[</span>sourceWidth<span class="token punctuation">,</span> sourceHeight<span class="token punctuation">]</span> <span class="token operator">=</span> options
-  <span class="token keyword">const</span> <span class="token punctuation">{</span> width<span class="token punctuation">,</span> height<span class="token punctuation">,</span> isWidth<span class="token punctuation">,</span> isHeight<span class="token punctuation">,</span> scale <span class="token punctuation">}</span> <span class="token operator">=</span> config
-  <span class="token keyword">const</span> haveWidth <span class="token operator">=</span> <span class="token punctuation">[</span>width<span class="token punctuation">,</span> <span class="token punctuation">(</span>sourceHeight <span class="token operator">*</span> width <span class="token operator">*</span> scale<span class="token punctuation">)</span> <span class="token operator">/</span> sourceWidth<span class="token punctuation">]</span>
-  <span class="token keyword">const</span> haveHeight <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>sourceWidth <span class="token operator">*</span> height <span class="token operator">*</span> scale<span class="token punctuation">)</span> <span class="token operator">/</span> sourceHeight<span class="token punctuation">,</span> height<span class="token punctuation">]</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>width <span class="token operator">===</span> <span class="token number">0</span> <span class="token operator">||</span> height <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>width <span class="token operator">&amp;&amp;</span> height<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>isWidth<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">return</span> haveWidth
-    <span class="token punctuation">}</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>isHeight<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">return</span> haveHeight
-    <span class="token punctuation">}</span>
-    <span class="token keyword">return</span> <span class="token punctuation">[</span>width <span class="token operator">/</span> scale<span class="token punctuation">,</span> height <span class="token operator">/</span> scale<span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>width <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>height<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> haveWidth
-  <span class="token punctuation">}</span>
-  <span class="token keyword">if</span> <span class="token punctuation">(</span>height <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>width<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> haveHeight
-  <span class="token punctuation">}</span>
-  <span class="token keyword">return</span> options<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">item</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> item <span class="token operator">/</span> scale<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-<span class="token operator">!</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-  <span class="token keyword">const</span> paths <span class="token operator">=</span> glob<span class="token punctuation">.</span><span class="token function">sync</span><span class="token punctuation">(</span><span class="token string">'./images/*'</span><span class="token punctuation">)</span>
-  <span class="token comment">// 压缩成zip</span>
-  <span class="token keyword">const</span> archive <span class="token operator">=</span> <span class="token function">archiver</span><span class="token punctuation">(</span><span class="token string">'zip'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-    zlib<span class="token operator">:</span> <span class="token punctuation">{</span>
-      level<span class="token operator">:</span> <span class="token number">9</span><span class="token punctuation">,</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token comment">// 输出到当前文件夹下的 image-resize.zip</span>
-  <span class="token keyword">const</span> output <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">createWriteStream</span><span class="token punctuation">(</span>__dirname <span class="token operator">+</span> <span class="token string">'/image-resize.zip'</span><span class="token punctuation">)</span>
-  archive<span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>output<span class="token punctuation">)</span>
-  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> paths<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> path <span class="token operator">=</span> paths<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
-    <span class="token keyword">const</span> image <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">loadImage</span><span class="token punctuation">(</span>path<span class="token punctuation">)</span>
-    <span class="token keyword">const</span> <span class="token punctuation">{</span> width<span class="token punctuation">,</span> height <span class="token punctuation">}</span> <span class="token operator">=</span> image
-
-    <span class="token comment">// 由于使用了扩展运算符展开对象，这里需要为对象定义迭代器</span>
-    <span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> width<span class="token punctuation">,</span> height <span class="token punctuation">}</span>
-    obj<span class="token punctuation">[</span>Symbol<span class="token punctuation">.</span>iterator<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">return</span> <span class="token punctuation">{</span>
-        <span class="token function-variable function">next</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-          <span class="token keyword">let</span> objArr <span class="token operator">=</span> Reflect<span class="token punctuation">.</span><span class="token function">ownKeys</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span>
-          <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>index <span class="token operator">&lt;</span> objArr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">let</span> key <span class="token operator">=</span> objArr<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>index<span class="token punctuation">]</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span>index<span class="token operator">++</span>
-            <span class="token keyword">return</span> <span class="token punctuation">{</span> value<span class="token operator">:</span> obj<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token punctuation">}</span>
-          <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> <span class="token punctuation">{</span> done<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span>
-          <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        index<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-    <span class="token comment">// 默认缩放2倍</span>
-    <span class="token comment">// const options = [width, height].map((item) =&gt; item / 2)</span>
-    <span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token function">getOptions</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> config<span class="token punctuation">)</span>
-    <span class="token keyword">const</span> canvas <span class="token operator">=</span> <span class="token function">createCanvas</span><span class="token punctuation">(</span><span class="token operator">...</span>options<span class="token punctuation">)</span>
-    <span class="token keyword">const</span> ctx <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span>
-    ctx<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>image<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">...</span>options<span class="token punctuation">)</span>
-    archive<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>canvas<span class="token punctuation">.</span><span class="token function">toBuffer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">basename</span><span class="token punctuation">(</span>path<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h4 id="4、config-js-用于修改宽高等配置"><a href="#4、config-js-用于修改宽高等配置" class="headerlink" title="4、config.js 用于修改宽高等配置"></a>4、config.js 用于修改宽高等配置</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
-  width<span class="token operator">:</span> <span class="token number">300</span><span class="token punctuation">,</span>
-  height<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
-  <span class="token comment">// 根据宽度等比缩放，优先级更高</span>
-  isWidth<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  <span class="token comment">// 根据高度等比缩放</span>
-  isHeight<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-  <span class="token comment">// 宽高整体缩放</span>
-  scale<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/edad572d/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1500,7 +938,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/24/vscode/2020-09-24-vscode-quick-operation/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/9255825/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1514,7 +952,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/24/vscode/2020-09-24-vscode-quick-operation/" class="post-title-link" itemprop="url">vscode实现快速移动光标</a>
+            <a href="/post/9255825/" class="post-title-link" itemprop="url">vscode实现快速移动光标</a>
         </h2>
 
         <div class="post-meta">
@@ -1526,13 +964,6 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
               <time title="创建时间：2020-09-24 15:42:14" itemprop="dateCreated datePublished" datetime="2020-09-24T15:42:14+08:00">2020-09-24</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:35:58" itemprop="dateModified" datetime="2021-12-28T16:35:58+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1543,13 +974,20 @@ module<span class="token punctuation">.</span>exports <span class="token operato
                 </span>
             </span>
 
-          
-            <span id="/2020/09/24/vscode/2020-09-24-vscode-quick-operation/" class="post-meta-item leancloud_visitors" data-flag-title="vscode实现快速移动光标" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -1562,86 +1000,14 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
       
           <p>通过 shift+ctrl+p 打开 keybindings.json，如果是 mac 电脑，把 alt 改为 command 即可，这样就能 alt+jkli 实现上下左右了。</p>
-<p>以下是代码：</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">// 将键绑定放在此文件中以覆盖默认值auto[]</span>
-<span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"ctrl+shift+oem_2"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"editor.action.blockComment"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorTextFocus &amp;&amp; !editorReadonly"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"shift+alt+a"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"-editor.action.blockComment"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorTextFocus &amp;&amp; !editorReadonly"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+l"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorRight"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"right"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorRight"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+i"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorUp"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"up"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorUp"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+j"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorLeft"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"left"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorLeft"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+k"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorDown"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"down"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"cursorDown"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"down"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"list.focusDown"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"listFocus &amp;&amp; !inputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"down"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"selectNextSuggestion"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"suggestWidgetMultipleSuggestions &amp;&amp; suggestWidgetVisible &amp;&amp; textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+k"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"selectNextSuggestion"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"suggestWidgetMultipleSuggestions &amp;&amp; suggestWidgetVisible &amp;&amp; textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"up"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"selectPrevSuggestion"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"suggestWidgetMultipleSuggestions &amp;&amp; suggestWidgetVisible &amp;&amp; textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"alt+i"</span><span class="token punctuation">,</span>
-        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"selectPrevSuggestion"</span><span class="token punctuation">,</span>
-        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"suggestWidgetMultipleSuggestions &amp;&amp; suggestWidgetVisible &amp;&amp; textInputFocus"</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/9255825/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1660,7 +1026,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/06/nodejs/2020-09-06-node-nodejs-kai-fa-orm-kuang-jia-sequelize/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/7ce09458/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1674,7 +1040,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/06/nodejs/2020-09-06-node-nodejs-kai-fa-orm-kuang-jia-sequelize/" class="post-title-link" itemprop="url">nodejs开发，使用ORM框架Sequelize</a>
+            <a href="/post/7ce09458/" class="post-title-link" itemprop="url">nodejs开发，使用ORM框架Sequelize</a>
         </h2>
 
         <div class="post-meta">
@@ -1686,13 +1052,6 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
               <time title="创建时间：2020-09-06 16:32:14" itemprop="dateCreated datePublished" datetime="2020-09-06T16:32:14+08:00">2020-09-06</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:33:55" itemprop="dateModified" datetime="2021-12-28T16:33:55+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1703,13 +1062,20 @@ module<span class="token punctuation">.</span>exports <span class="token operato
                 </span>
             </span>
 
-          
-            <span id="/2020/09/06/nodejs/2020-09-06-node-nodejs-kai-fa-orm-kuang-jia-sequelize/" class="post-meta-item leancloud_visitors" data-flag-title="nodejs开发，使用ORM框架Sequelize" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -1722,101 +1088,14 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
       
           <h3 id="一、什么是ORM"><a href="#一、什么是ORM" class="headerlink" title="一、什么是ORM"></a>一、什么是ORM</h3><p>对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，将面向对象语言程序中的对象自动持久化到关系数据库中。本质上就是将数据从一种形式转换到另外一种形式。 这也同时暗示着额外的执行开销；然而，如果ORM作为一种中间件实现，则会有很多机会做优化，而这些在手写的持久层并不存在。 更重要的是用于控制转换的元数据需要提供和管理；但是同样，这些花费要比维护手写的方案要少；而且就算是遵守ODMG规范的对象数据库依然需要类级别的元数据。</p>
-<p>ORM 技术是在对象和数据库之间提供了一条桥梁，前台的对象型数据和数据库中的关系型的数据通过这个桥梁来相互转化。</p>
-<p>不同的编程语言，有不同的ORM框架。例如Java，它的ORM框架就有：Hibernate，Ibatis/Mybatis等等。在Node Web开发中，Sequelize 就是一款比较流行的 ORM 框架。</p>
-<h3 id="二、安装相关插件"><a href="#二、安装相关插件" class="headerlink" title="二、安装相关插件"></a>二、安装相关插件</h3><ul>
-<li>npm i sequelize mysql2 -d</li>
-</ul>
-<h3 id="三、Sequelize的使用"><a href="#三、Sequelize的使用" class="headerlink" title="三、Sequelize的使用"></a>三、Sequelize的使用</h3><h4 id="1-创建连接对象，-并模块化"><a href="#1-创建连接对象，-并模块化" class="headerlink" title="1. 创建连接对象， 并模块化"></a>1. 创建连接对象， 并模块化</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* seq.js */</span>
-<span class="token keyword">const</span> Sequelize <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'sequelize'</span><span class="token punctuation">)</span>
-
-<span class="token keyword">const</span> conf <span class="token operator">=</span> <span class="token punctuation">{</span>
-    host<span class="token operator">:</span> <span class="token string">'localhost'</span><span class="token punctuation">,</span>
-    dialect<span class="token operator">:</span> <span class="token string">'mysql'</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">const</span> seq <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Sequelize</span><span class="token punctuation">(</span><span class="token string">'koa2_weibo_db'</span><span class="token punctuation">,</span> <span class="token string">'root'</span><span class="token punctuation">,</span> <span class="token string">'1233456'</span><span class="token punctuation">,</span> conf<span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> seq<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h4 id="2-定义数据表结构"><a href="#2-定义数据表结构" class="headerlink" title="2. 定义数据表结构"></a>2. 定义数据表结构</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* model.js */</span>
-<span class="token keyword">const</span> Sequelize <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'sequelize'</span><span class="token punctuation">)</span>
-<span class="token keyword">const</span> seq <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./seq'</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 创建 User 模型，数据表的名字是users</span>
-<span class="token keyword">const</span> User <span class="token operator">=</span> seq<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token string">'user'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-    <span class="token comment">// id会自动创建，并设为主键、自增</span>
-    userName<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">STRING</span><span class="token punctuation">,</span>  <span class="token comment">// varchar(255)</span>
-        allowNull<span class="token operator">:</span> <span class="token boolean">false</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    password<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">STRING</span><span class="token punctuation">,</span>
-        allowNull<span class="token operator">:</span> <span class="token boolean">false</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    nickName<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">STRING</span><span class="token punctuation">,</span>
-        comment<span class="token operator">:</span> <span class="token string">'昵称'</span>  <span class="token comment">// 注释</span>
-    <span class="token punctuation">}</span>
-    <span class="token comment">// 会自动创建 createdAt 和 updatedAt</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 创建 Blog 模型</span>
-<span class="token keyword">const</span> Blog <span class="token operator">=</span> seq<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token string">'blog'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
-    title<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">STRING</span><span class="token punctuation">,</span>
-        allowNull<span class="token operator">:</span> <span class="token boolean">false</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    content<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">STRING</span><span class="token punctuation">,</span>
-        allowNull<span class="token operator">:</span> <span class="token boolean">false</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    userId<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Sequelize<span class="token punctuation">.</span><span class="token constant">INTEGER</span><span class="token punctuation">,</span>
-        allowNull<span class="token operator">:</span> <span class="token boolean">false</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 外键关联</span>
-Blog<span class="token punctuation">.</span><span class="token function">belongsTo</span><span class="token punctuation">(</span>User<span class="token punctuation">,</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 创建外键 Blog.userId -&gt; User.id</span>
-    foreignKey<span class="token operator">:</span> <span class="token string">'userId'</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-User<span class="token punctuation">.</span><span class="token function">hasMany</span><span class="token punctuation">(</span>Blog<span class="token punctuation">,</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 创建外键 Blog.userId -&gt; User.id</span>
-    foreignKey<span class="token operator">:</span> <span class="token string">'userId'</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
-    User<span class="token punctuation">,</span>
-    Blog
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h4 id="3-同步数据表结构"><a href="#3-同步数据表结构" class="headerlink" title="3. 同步数据表结构"></a>3. 同步数据表结构</h4><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* sync.js */</span>
-<span class="token keyword">const</span> seq <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./seq'</span><span class="token punctuation">)</span>
-<span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./model'</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 测试连接</span>
-seq<span class="token punctuation">.</span><span class="token function">authenticate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'err'</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span class="token comment">// 同步表结构</span>
-seq<span class="token punctuation">.</span><span class="token function">sync</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    force<span class="token operator">:</span> <span class="token boolean">true</span>  <span class="token comment">// 强制同步，先删除表，然后新建</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'sync ok'</span><span class="token punctuation">)</span>
-    process<span class="token punctuation">.</span><span class="token function">exit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/7ce09458/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1835,7 +1114,7 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/09/02/vue/2020-09-02-ru-he-zai-vue-xiang-mu-zhong-shi-yong-zi-ding-yi-zi-ti/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/5f520386/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1849,7 +1128,7 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/02/vue/2020-09-02-ru-he-zai-vue-xiang-mu-zhong-shi-yong-zi-ding-yi-zi-ti/" class="post-title-link" itemprop="url">如何在Vue项目中使用自定义字体</a>
+            <a href="/post/5f520386/" class="post-title-link" itemprop="url">如何在Vue项目中使用自定义字体</a>
         </h2>
 
         <div class="post-meta">
@@ -1861,13 +1140,6 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
 
               <time title="创建时间：2020-09-02 10:31:14" itemprop="dateCreated datePublished" datetime="2020-09-02T10:31:14+08:00">2020-09-02</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:34:16" itemprop="dateModified" datetime="2021-12-28T16:34:16+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1878,13 +1150,20 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
                 </span>
             </span>
 
-          
-            <span id="/2020/09/02/vue/2020-09-02-ru-he-zai-vue-xiang-mu-zhong-shi-yong-zi-ding-yi-zi-ti/" class="post-meta-item leancloud_visitors" data-flag-title="如何在Vue项目中使用自定义字体" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>493</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -1901,26 +1180,14 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
 <li>把拿到的字体包放到fonts文件夹中接着创建一个fonts.css文件</li>
 <li>在fonts.css文件中定义你所用的字体<strong>（这里以PingFang为例）</strong></li>
 </ol>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token atrule"><span class="token rule">@font-face</span><span class="token punctuation">:</span></span> <span class="token punctuation">{</span>
-	<span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">'PingFang-RE'</span><span class="token punctuation">;</span>
-  <span class="token comment">/* 重命名字体名 */</span>
-  <span class="token property">src</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'./PingFang\ Regular.ttf'</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
-  <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
-  <span class="token property">font-style</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<ol start="4">
-<li>在app.vue中引入fonts.css</li>
-</ol>
-<pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;style lang="scss"&gt;
-  @import './assets/fonts/fonts.css';
-  #app {
-    font-family: 'PingFang-RE';
-    font-weight: 400;
-  }
-&lt;/style&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/5f520386/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1939,7 +1206,7 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-suo-yin-mongoose-nei-zhi-curd-fang-fa-kuo-zhan-mongoose-model-de-jing-tai-fang-fa-he-shi-li-fang-fa/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/tangyun-92/tangyun-92.github.io/post/c74742f2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -1953,7 +1220,7 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-suo-yin-mongoose-nei-zhi-curd-fang-fa-kuo-zhan-mongoose-model-de-jing-tai-fang-fa-he-shi-li-fang-fa/" class="post-title-link" itemprop="url">Mongoose索引、Mongoose内置CURD方法、扩展Mongoose Model的静态方法和实例方法</a>
+            <a href="/post/c74742f2/" class="post-title-link" itemprop="url">Mongoose索引、Mongoose内置CURD方法、扩展Mongoose Model的静态方法和实例方法</a>
         </h2>
 
         <div class="post-meta">
@@ -1965,13 +1232,6 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
 
               <time title="创建时间：2020-08-25 18:42:14" itemprop="dateCreated datePublished" datetime="2020-08-25T18:42:14+08:00">2020-08-25</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-28 16:33:49" itemprop="dateModified" datetime="2021-12-28T16:33:49+08:00">2021-12-28</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -1982,13 +1242,20 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
                 </span>
             </span>
 
-          
-            <span id="/2020/08/25/nodejs/2020-08-25-mongodb-mongoose-suo-yin-mongoose-nei-zhi-curd-fang-fa-kuo-zhan-mongoose-model-de-jing-tai-fang-fa-he-shi-li-fang-fa/" class="post-meta-item leancloud_visitors" data-flag-title="Mongoose索引、Mongoose内置CURD方法、扩展Mongoose Model的静态方法和实例方法" title="阅读次数">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -2001,86 +1268,14 @@ seq<span class="token punctuation">.</span><span class="token function">sync</sp
 
       
           <h3 id="一、Mongoose索引"><a href="#一、Mongoose索引" class="headerlink" title="一、Mongoose索引"></a>一、Mongoose索引</h3><p>索引是对数据库表中一列或多列的值进行排序的一种结构，可以让我们查询数据库变得更快。MongoDB的索引几乎与传统的关系型数据库一模一样，这其中也包括一些基本的查询优化技巧。</p>
-<p>mongoose中除了以前创建索引的方式，我们也可以在定义Schema的时候指定创建索引。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> mongoose <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mongoose'</span><span class="token punctuation">)</span>
-
-<span class="token keyword">var</span> UserSchema <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">Schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    name<span class="token operator">:</span> String<span class="token punctuation">,</span>
-    sn<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> String<span class="token punctuation">,</span>
-        index<span class="token operator">:</span> <span class="token boolean">true</span>  <span class="token comment">// 将sn作为索引</span>
-    <span class="token punctuation">}</span>，
-    age<span class="token operator">:</span> Number<span class="token punctuation">,</span>
-    status<span class="token operator">:</span> <span class="token punctuation">{</span>
-        type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
-        <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">1</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-module<span class="token punctuation">.</span>exports <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">model</span><span class="token punctuation">(</span><span class="token string">'Users'</span><span class="token punctuation">,</span> UserSchema<span class="token punctuation">,</span> <span class="token string">'users'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="二、Mongoose内置CURD"><a href="#二、Mongoose内置CURD" class="headerlink" title="二、Mongoose内置CURD"></a>二、Mongoose内置CURD</h3><p><a target="_blank" rel="noopener" href="https://mongoosejs.com/docs/queries.html">mongoosejs.com/docs/querie…</a></p>
-<ul>
-<li><p>Model.deleteMany()</p>
-</li>
-<li><p>Model.deleteOne()</p>
-</li>
-<li><p>Model.find()</p>
-</li>
-<li><p>Model.findById()</p>
-</li>
-<li><p>Model.findByIdAndDelete()</p>
-</li>
-<li><p>Model.findByIdAndRemove()</p>
-</li>
-<li><p>Model.findByIdAndUpdate()</p>
-</li>
-<li><p>Model.findOne()</p>
-</li>
-<li><p>Model.findOneAndDelete()</p>
-</li>
-<li><p>Model.findOneAndRemove()</p>
-</li>
-<li><p>Model.findOneAndUpdate()</p>
-</li>
-<li><p>Model.replaceOne()</p>
-</li>
-<li><p>Model.updateOne()</p>
-</li>
-<li><p>Model.updateMany()</p>
-</li>
-</ul>
-<h3 id="三、自定义封装静态方法"><a href="#三、自定义封装静态方法" class="headerlink" title="三、自定义封装静态方法"></a>三、自定义封装静态方法</h3><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* model中的user.js */</span>
-<span class="token comment">// 静态方法</span>
-UserSchema<span class="token punctuation">.</span>statics<span class="token punctuation">.</span><span class="token function-variable function">findBySn</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">sn<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 通过find方法获取sn的数据，this关键字获取当前的model</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'sn'</span><span class="token operator">:</span>sn<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-        <span class="token function">cb</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> docs<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-<span class="token comment">/* 根目录下的user.js */</span>
-UserModel<span class="token punctuation">.</span><span class="token function">findBySn</span><span class="token punctuation">(</span><span class="token string">'123456781'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> docs</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>docs<span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="四、自定义封装实例方法"><a href="#四、自定义封装实例方法" class="headerlink" title="四、自定义封装实例方法"></a>四、自定义封装实例方法</h3><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">/* model中的user.js */</span>
-<span class="token comment">// 实例方法（基本不用）</span>
-UserSchema<span class="token punctuation">.</span>methods<span class="token punctuation">.</span><span class="token function-variable function">printA</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'我是一个实例方法'</span><span class="token punctuation">)</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-<span class="token comment">/* 根目录下的user.js */</span>
-<span class="token operator">/</span><span class="token keyword">var</span> user <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">UserModel</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-    name<span class="token operator">:</span> <span class="token string">'ww'</span><span class="token punctuation">,</span>
-    sn<span class="token operator">:</span> <span class="token string">'123456782'</span><span class="token punctuation">,</span>
-    age<span class="token operator">:</span> <span class="token number">18</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-user<span class="token punctuation">.</span><span class="token function">printA</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">// 自定义的实例方法</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/c74742f2/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -2211,6 +1406,19 @@ user<span class="token punctuation">.</span><span class="token function">printA<
     </ul>
   </div>
 
+  
+  <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+  <div class="widget-wrap">
+      <div id="myCanvasContainer" class="widget tagcloud">
+          <canvas width="250" height="250" id="resCanvas" style="width=100%">
+              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Axios/" rel="tag">Axios</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Canvas/" rel="tag">Canvas</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cent-OS/" rel="tag">Cent OS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cli/" rel="tag">Cli</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Css/" rel="tag">Css</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Decode/" rel="tag">Decode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Encrypt/" rel="tag">Encrypt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Express/" rel="tag">Express</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Generator/" rel="tag">Generator</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hooks/" rel="tag">Hooks</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/" rel="tag">Html</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Icon/" rel="tag">Icon</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JWT/" rel="tag">JWT</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Javascript/" rel="tag">Javascript</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/" rel="tag">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mongodb/" rel="tag">Mongodb</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mongoose/" rel="tag">Mongoose</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Navicat/" rel="tag">Navicat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Nginx/" rel="tag">Nginx</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node/" rel="tag">Node</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ORM/" rel="tag">ORM</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallels-Desktop/" rel="tag">Parallels Desktop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Performance/" rel="tag">Performance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Promise/" rel="tag">Promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sequelize/" rel="tag">Sequelize</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sql/" rel="tag">Sql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VsCode/" rel="tag">VsCode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/" rel="tag">Vue</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ZIP/" rel="tag">ZIP</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/multer/" rel="tag">multer</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/" rel="tag">前端工程化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" rel="tag">奇技淫巧</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/" rel="tag">性能优化</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%88%E7%8E%87/" rel="tag">效率</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" rel="tag">树结构</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%9B%E5%8D%A1%E5%B0%94%E7%A7%AF/" rel="tag">笛卡尔积</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%A8%E5%9F%9F/" rel="tag">跨域</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%80%92%E5%BD%92/" rel="tag">递归</a><span class="tag-list-count">1</span></li></ul>
+          </canvas>
+      </div>
+  </div>
+  
+
+
       </div>
 
     </div>
@@ -2235,9 +1443,19 @@ user<span class="token punctuation">.</span><span class="token function">printA<
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Tang Yun</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">40k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">36 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
-  </div>
 
         
 <div class="busuanzi-count">
@@ -2266,92 +1484,6 @@ user<span class="token punctuation">.</span><span class="token function">printA<
 
 
 
-<script>
-  (function() {
-    function leancloudSelector(url) {
-      url = encodeURI(url);
-      return document.getElementById(url).querySelector('.leancloud-visitors-count');
-    }
-
-    function addCount(Counter) {
-      var visitors = document.querySelector('.leancloud_visitors');
-      var url = decodeURI(visitors.id);
-      var title = visitors.dataset.flagTitle;
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          if (results.length > 0) {
-            var counter = results[0];
-            leancloudSelector(url).innerText = counter.time + 1;
-            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
-              .catch(error => {
-                console.error('Failed to save visitor count', error);
-              });
-          } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    function showTime(Counter) {
-      var visitors = document.querySelectorAll('.leancloud_visitors');
-      var entries = [...visitors].map(element => {
-        return decodeURI(element.id);
-      });
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url: { '$in': entries } })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          for (let url of entries) {
-            let target = results.find(item => item.url === url);
-            leancloudSelector(url).innerText = target ? target.time : 0;
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    let { app_id, app_key, server_url } = {"enable":true,"app_id":"xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz","app_key":"oVDK9Nl1SEhkpI50U67NAsXP","server_url":null,"security":true};
-    function fetchData(api_server) {
-      var Counter = (method, url, data) => {
-        return fetch(`${api_server}/1.1${url}`, {
-          method,
-          headers: {
-            'X-LC-Id'     : app_id,
-            'X-LC-Key'    : app_key,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data)
-        });
-      };
-      if (CONFIG.page.isPost) {
-        if (CONFIG.hostname !== location.hostname) return;
-        addCount(Counter);
-      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
-        showTime(Counter);
-      }
-    }
-
-    let api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${app_id.slice(0, 8).toLowerCase()}.api.lncldglobal.com`;
-
-    if (api_server) {
-      fetchData(api_server);
-    } else {
-      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
-        .then(response => response.json())
-        .then(({ api_server }) => {
-          fetchData('https://' + api_server);
-        });
-    }
-  })();
-</script>
 
 
       </div>
@@ -2360,6 +1492,8 @@ user<span class="token punctuation">.</span><span class="token function">printA<
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -2368,16 +1502,12 @@ user<span class="token punctuation">.</span><span class="token function">printA<
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
 
 
-  <script defer src="/lib/three/three.min.js"></script>
-    <script defer src="/lib/three/three-waves.min.js"></script>
-    <script defer src="/lib/three/canvas_lines.min.js"></script>
-    <script defer src="/lib/three/canvas_sphere.min.js"></script>
 
 
   
@@ -2403,6 +1533,21 @@ user<span class="token punctuation">.</span><span class="token function">printA<
   
 
   
+
+
+  
+
+  <script async src="/js/cursor/fireworks.js"></script>
+
+
+
+
+  <script src="/js/activate-power-mode.min.js"></script>
+  <script>
+    POWERMODE.colorful = true;
+    POWERMODE.shake = false;
+    document.body.addEventListener('input', POWERMODE);
+  </script>
 
 
 </body>
