@@ -1,15 +1,18 @@
 ---
 title: vscode实现快速移动光标
-date: 2020-09-24 15:42:14
-img:
 categories: VsCode
 summary: vscode实现快速移动光标（alt+jkli实现上下左右）
-tags: 
+tags:
   - VsCode
+abbrlink: '9255825'
+date: 2020-09-24 15:42:14
+img:
 ---
 
 
 通过 shift+ctrl+p 打开 keybindings.json，如果是 mac 电脑，把 alt 改为 command 即可，这样就能 alt+jkli 实现上下左右了。
+
+<!--more-->
 
 以下是代码：
 

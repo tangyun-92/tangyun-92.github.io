@@ -15,7 +15,11 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://github.com/tangyun-92/tangyun-92.github.io
 root: /
-permalink: :year/:month/:day/:title/
+# 博客文章持久化链接，需要先安装 hexo-abbrlink 插件
+permalink: post/:abbrlink/
+abbrlink:
+  alg: crc32   # 算法：crc16(default) and crc32
+  rep: hex # 进制：dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -41,7 +45,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -98,6 +102,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# theme: hexo-theme-matery-master
 theme: hexo-theme-next
 
 # Deployment
@@ -146,3 +151,10 @@ leancloud_counter_security:
  app_key: oVDK9Nl1SEhkpI50U67NAsXP # 同前文的key
  username:
  password:
+
+# 设置文章字数统计与预计阅读时间
+symbols_count_time:
+  symbols: true 
+  time: true 
+  total_symbols: true 
+  total_time: true 

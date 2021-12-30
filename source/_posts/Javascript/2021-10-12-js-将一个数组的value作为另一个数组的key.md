@@ -1,15 +1,16 @@
 ---
 title: 将一个数组的value作为另一个数组的key
-date: 2021-10-12 14:42:14
-img:
 categories: Javascript
 summary: 使用求笛卡尔积实现数组数据清洗
-tags: 
+tags:
   - Javascript
   - 笛卡尔积
+abbrlink: c51a90f2
+date: 2021-10-12 14:42:14
+img:
 ---
 
-
+<!--more-->
 
 ```js
 

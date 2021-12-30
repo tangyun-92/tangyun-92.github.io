@@ -1,12 +1,13 @@
 ---
 title: Navicat连接数据库报错2059-AUTHENTICATION PLUGIN...错误解决方法
-date: 2020-06-03 19:35:14
-img:
 categories: Navicat
 summary: Navicat连接数据库报错
-tags: 
+tags:
   - Navicat
   - Mysql
+abbrlink: d946248d
+date: 2020-06-03 19:35:14
+img:
 ---
 
 
@@ -14,6 +15,8 @@ tags:
 出现这个错误的原因是因为MySQL8.0以上数据库使用的加密方式是：caching_sha2_password；
 
 我们可以使用如下命令查看一下加密信息：show variables like 'default_authentication_plugin';
+
+<!--more-->
 
 <!-- ![img](/images/wiki/navicat-error.png) -->
 ![img](https://github.com/tangyun-92/tangyun-92.github.io/blob/master/themes/hexo-theme-matery-master/source/medias/images/posts/navicat-error.png?raw=true)

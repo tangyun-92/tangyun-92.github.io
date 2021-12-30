@@ -1,13 +1,14 @@
 ---
 title: Mongoose索引、Mongoose内置CURD方法、扩展Mongoose Model的静态方法和实例方法
-date: 2020-08-25 18:42:14
-img:
 categories: Mongodb
 summary: Mongoose索引等
-tags: 
+tags:
   - Mongodb
   - Mongoose
   - Node
+abbrlink: c74742f2
+date: 2020-08-25 18:42:14
+img:
 ---
 
 
@@ -15,7 +16,7 @@ tags:
 
 索引是对数据库表中一列或多列的值进行排序的一种结构，可以让我们查询数据库变得更快。MongoDB的索引几乎与传统的关系型数据库一模一样，这其中也包括一些基本的查询优化技巧。
 
-
+<!--more-->
 
 mongoose中除了以前创建索引的方式，我们也可以在定义Schema的时候指定创建索引。
 

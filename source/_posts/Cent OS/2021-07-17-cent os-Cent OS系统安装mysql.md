@@ -1,12 +1,13 @@
 ---
 title: Cent OS 系统安装 Mysql
-date: 2021-07-17 10:42:39
-img:
 categories: Mysql
 summary: Cent OS 系统安装 Mysql
-tags: 
+tags:
   - Mysql
   - Cent OS
+abbrlink: d33be7ca
+date: 2021-07-17 10:42:39
+img:
 ---
 
 
@@ -27,6 +28,7 @@ tags:
 - usr：用户安装的程序
 - var：存放程序或者系统的日志文件
 
+<!--more-->
 
 
 ### 新装Cent OS系统，关闭SELinux

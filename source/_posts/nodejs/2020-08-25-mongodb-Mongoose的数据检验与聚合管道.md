@@ -1,18 +1,21 @@
 ---
 title: Mongoose的数据检验与聚合管道
-date: 2020-08-25 16:42:14
-img:
 categories: Mongodb
 summary: Mongoose的数据检验与聚合管道
-tags: 
+tags:
   - Mongodb
   - Mongoose
   - Node
+abbrlink: 712e955b
+date: 2020-08-25 16:42:14
+img:
 ---
 
 ### 一、什么是mongoose的数据检验
 
 用户通过mongoose给mongodb数据库增加数据的时候，对数据的合法性进行的验证
+
+<!--more-->
 
 ### 二、mongoose校验参数
 

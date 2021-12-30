@@ -1,13 +1,14 @@
 ---
 title: express结合multer实现文件上传功能
-date: 2020-08-24 15:42:14
-img:
 categories: Express
 summary: express结合multer实现文件上传功能
-tags: 
+tags:
   - Express
   - Node
   - multer
+abbrlink: 2a655ab9
+date: 2020-08-24 15:42:14
+img:
 ---
 
 
@@ -22,6 +23,8 @@ tags:
     <input type="submit" value="提交">
 </form>
 ```
+
+<!--more-->
 
 ```javascript
 // nav.js文件中

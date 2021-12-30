@@ -1,13 +1,14 @@
 ---
 title: 使用AES实现密码加密（ECB和CBC两种模式）
-date: 2021-07-26 12:42:14
-img:
 categories: Javascript
 summary: ECB和CBC
-tags: 
+tags:
   - Javascript
   - Encrypt
   - Decode
+abbrlink: 581db924
+date: 2021-07-26 12:42:14
+img:
 ---
 
 
@@ -16,6 +17,8 @@ tags:
 
 > **ECB：** 是一种基础的加密方式，密文被分割成分组长度相等的块（不足补齐），然后单独一个个加密，一个个输出组成密文。
 > **CBC：** 是一种循环模式，前一个分组的密文和当前分组的明文异或或操作后再加密，这样做的目的是增强破解难度。（不容易主动攻击，安全性好于ECB，是SSL、IPSec的标准）
+
+<!--more-->
 
 ### 实现
 

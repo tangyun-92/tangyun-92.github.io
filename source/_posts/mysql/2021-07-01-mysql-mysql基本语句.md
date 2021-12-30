@@ -1,14 +1,16 @@
 ---
 title: mysql基本语句
-date: 2021-07-01 11:22:39
-img:
 categories: Mysql
 summary: mysql增删改查基本语句
-tags: 
+tags:
   - Mysql
   - Sql
+abbrlink: ee4b22a2
+date: 2021-07-01 11:22:39
+img:
 ---
 
+<!--more-->
 
 ```sql
 -- 查看所有数据库

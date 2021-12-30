@@ -1,12 +1,13 @@
 ---
 title: Nodejs实现批量裁剪图片功能
-date: 2020-09-25 10:32:14
-img:
 categories: Node
 summary: Nodejs实现批量裁剪图片功能
-tags: 
+tags:
   - Node
   - Canvas
+abbrlink: edad572d
+date: 2020-09-25 10:32:14
+img:
 ---
 
 
@@ -14,7 +15,7 @@ tags:
 
 首先新建一个 tailor-img 文件夹，接着执行 npm init -y 初始化一个package.json
 
-
+<!--more-->
 
 #### 2、安装相关插件
 

@@ -1,19 +1,20 @@
 ---
 title: 使用NodeJS实现JWT原理
-date: 2020-11-20 10:30:14
-img:
 categories: Node
 summary: JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token
-tags: 
+tags:
   - Node
   - JWT
 top: true
+abbrlink: 6c8d1a62
+date: 2020-11-20 10:30:14
+img:
 ---
 
 
 JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token
 
-
+<!--more-->
 
 #### 1、为什么需要会话管理
 

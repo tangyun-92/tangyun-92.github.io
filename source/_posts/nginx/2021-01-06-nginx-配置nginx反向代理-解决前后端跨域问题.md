@@ -1,12 +1,13 @@
 ---
 title: 配置nginx反向代理-解决前后端跨域问题
-date: 2021-01-06 15:42:14
-img:
 categories: Nginx
 summary: 配置nginx反向代理
-tags: 
+tags:
   - Nginx
   - 跨域
+abbrlink: dd45473f
+date: 2021-01-06 15:42:14
+img:
 ---
 
 
@@ -14,7 +15,7 @@ tags:
 
 官方网站下载地址： https://nginx.org/en/download.html
 
-
+<!--more-->
 
 #### 2.解压下载后的文件，目录如下
 

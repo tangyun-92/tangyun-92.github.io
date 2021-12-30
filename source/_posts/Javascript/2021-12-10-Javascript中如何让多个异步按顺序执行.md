@@ -1,19 +1,20 @@
 ---
 title: Javascript中如何让多个异步按顺序执行
-date: 2021-12-10 15:42:14
-img:
 categories: Javascript
 summary: Javascript中如何让多个异步按顺序执行
-tags: 
+tags:
   - Javascript
   - Promise
   - Generator
+abbrlink: 16614eb6
+date: 2021-12-10 15:42:14
+img:
 ---
 
 
 # 直接调用（异步调异步）
 
-
+<!--more--> 
 
 ```javascript
 function fn1() {

@@ -291,7 +291,6 @@ gitalk:
     clientSecret: d06ba6257488096e1e0fa4a8588e2ec2211a2693
   admin:
     - tangyun-92
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活

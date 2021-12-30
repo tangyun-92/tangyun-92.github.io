@@ -1,17 +1,20 @@
 ---
 title: Performance前端性能监控
-date: 2020-11-11 12:22:39
-img:
 categories: 性能优化
 summary: Performance前端性能监控
-tags: 
+tags:
   - 性能优化
   - Performance
+abbrlink: 9ad0612b
+date: 2020-11-11 12:22:39
+img:
 ---
 
 ### 什么是performance
 
 performance可以获取到当前页面中与性能相关的信息，可以检测到白屏时间、首屏时间、用户可操作的时间节点、页面总下载的时间、DNS查询的时间、TCP链接的时间等。
+
+<!--more--> 
 
 ### 前端性能主要测试点
 
