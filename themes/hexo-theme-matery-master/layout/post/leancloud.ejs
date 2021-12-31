@@ -1,4 +1,5 @@
 <script src="<%- theme.js_cdn.av %>"></script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript"> 
 if(<%- theme.leancloud_visitors.enable %>){
     var leancloud_app_id  = '<%- theme.leancloud_visitors.app_id %>';
@@ -48,7 +49,9 @@ if(<%- theme.leancloud_visitors.enable %>){
         var query = new Counter;
         query.save({
             words: url,
-            title: title
+            title: title,
+            ip: returnCitySN["cip"],
+            address: returnCitySN["cname"]
         }).then(function (object) {});
     }
 
