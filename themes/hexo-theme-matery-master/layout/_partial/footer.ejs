@@ -90,6 +90,11 @@
         </div>
         <div class="col s12 m4 l4 social-link <%- socialClass %>"><%- partial('_partial/social-link') %></div>
     </div>
+
+    <% if (theme.leancloud_visitors.enable){ %>
+      <%- partial('post/leancloud') %>
+    <% } %>
+
 </footer>
 
 <div class="progress-bar"></div>

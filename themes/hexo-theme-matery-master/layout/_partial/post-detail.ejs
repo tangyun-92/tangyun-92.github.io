@@ -67,6 +67,13 @@
                         <span id="busuanzi_value_page_pv"></span>
                     </div>
 				<% } %>
+
+                <% if (theme.leancloud_visitors.enable) { %>
+                <div class="archive-article-date">
+                  <i class="icon-smile icon far fa-eye fa-fw"></i> 阅读数:&nbsp;&nbsp;<span id="<%- url_for(page.path) %>" title="<%- url_for(page.title)%>"
+                    class="pageViews">0</span>次
+                </a>
+                <% } %>
             </div>
         </div>
         <hr class="clearfix">
