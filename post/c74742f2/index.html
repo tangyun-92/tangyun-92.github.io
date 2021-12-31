@@ -446,16 +446,16 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/Node/">
+                                <span class="chip bg-color">Node</span>
+                            </a>
+                        
                             <a href="/tags/Mongodb/">
                                 <span class="chip bg-color">Mongodb</span>
                             </a>
                         
                             <a href="/tags/Mongoose/">
                                 <span class="chip bg-color">Mongoose</span>
-                            </a>
-                        
-                            <a href="/tags/Node/">
-                                <span class="chip bg-color">Node</span>
                             </a>
                         
                     </div>
@@ -500,11 +500,13 @@
                 
 
                 
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
+
+                
+                <div class="archive-article-date">
+                  <i class="icon-smile icon far fa-eye fa-fw"></i> 阅读数:&nbsp;&nbsp;<span id="/post/c74742f2/" title="/Mongoose%E7%B4%A2%E5%BC%95%E3%80%81Mongoose%E5%86%85%E7%BD%AECURD%E6%96%B9%E6%B3%95%E3%80%81%E6%89%A9%E5%B1%95Mongoose%20Model%E7%9A%84%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95%E5%92%8C%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95"
+                    class="pageViews">0</span>次
+                </a>
+                
             </div>
         </div>
         <hr class="clearfix">
@@ -664,16 +666,16 @@ user<span class="token punctuation">.</span><span class="token function">printA<
                     
                         <div class="article-tag">
                             
+                                <a href="/tags/Node/">
+                                    <span class="chip bg-color">Node</span>
+                                </a>
+                            
                                 <a href="/tags/Mongodb/">
                                     <span class="chip bg-color">Mongodb</span>
                                 </a>
                             
                                 <a href="/tags/Mongoose/">
                                     <span class="chip bg-color">Mongoose</span>
-                                </a>
-                            
-                                <a href="/tags/Node/">
-                                    <span class="chip bg-color">Node</span>
                                 </a>
                             
                         </div>
@@ -961,16 +963,16 @@ user<span class="token punctuation">.</span><span class="token function">printA<
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/Node/">
+                        <span class="chip bg-color">Node</span>
+                    </a>
+                    
                     <a href="/tags/Mongodb/">
                         <span class="chip bg-color">Mongodb</span>
                     </a>
                     
                     <a href="/tags/Mongoose/">
                         <span class="chip bg-color">Mongoose</span>
-                    </a>
-                    
-                    <a href="/tags/Node/">
-                        <span class="chip bg-color">Node</span>
                     </a>
                     
                 </div>
@@ -1229,6 +1231,70 @@ user<span class="token punctuation">.</span><span class="token function">printA<
 
 </div>
     </div>
+
+    
+      <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
+<script type="text/javascript"> 
+if(true){
+    var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
+    var leancloud_app_key = 'oVDK9Nl1SEhkpI50U67NAsXP';
+
+    AV.init({
+        appId: leancloud_app_id,
+        appKey: leancloud_app_key
+    });
+
+    var pageViewsLength = $(".pageViews").length;
+
+    var isIndex = $(".pageViews").length > 1 ?true:false;
+
+    function showTime() {
+        var Counter = AV.Object.extend("Counter");
+        if(isIndex){
+            $(".pageViews").each(function(){
+                showPageViewsNum($(this),Counter);
+                addPageViewsNum($(this));
+            });
+        }else{
+            showPageViewsNum($(".pageViews"),Counter);
+            addPageViewsNum($(".pageViews"));
+        }
+    }
+
+    //显示阅读量
+    function showPageViewsNum(ele,Counter){
+        var query = new AV.Query("Counter");
+        var title = decodeURI(ele.attr('title'));
+            query.equalTo("title", title)
+        var url = ele.attr('id').trim();
+            query.equalTo("words", url);
+            query.count().then(function (number) {
+                $(document.getElementById(url)).text(number?  number : '0');
+            }, function (error) {
+                 $(document.getElementById(url)).text('0');
+            });
+    }
+
+    //追加阅读量
+    function addPageViewsNum(ele){
+        var url = ele.attr('id').trim();
+        var title = decodeURI(ele.attr('title'));
+        var Counter = AV.Object.extend("Counter");
+        var query = new Counter;
+        query.save({
+            words: url,
+            title: title
+        }).then(function (object) {});
+    }
+
+    if(pageViewsLength){ //此处判断等于 1 在执行 可去除循环
+        showTime();
+    }
+}
+</script>
+
+    
+
 </footer>
 
 <div class="progress-bar"></div>

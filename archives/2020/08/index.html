@@ -515,11 +515,11 @@
                         
                         <div class="card-action article-tags">
                             
+                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
+                            
                             <a href="/tags/Mongodb/"><span class="chip bg-color">Mongodb</span></a>
                             
                             <a href="/tags/Mongoose/"><span class="chip bg-color">Mongoose</span></a>
-                            
-                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
                             
                         </div>
                         
@@ -578,11 +578,11 @@
                         
                         <div class="card-action article-tags">
                             
+                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
+                            
                             <a href="/tags/Mongodb/"><span class="chip bg-color">Mongodb</span></a>
                             
                             <a href="/tags/Mongoose/"><span class="chip bg-color">Mongoose</span></a>
-                            
-                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
                             
                         </div>
                         
@@ -641,9 +641,9 @@
                         
                         <div class="card-action article-tags">
                             
-                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
-                            
                             <a href="/tags/Express/"><span class="chip bg-color">Express</span></a>
+                            
+                            <a href="/tags/Node/"><span class="chip bg-color">Node</span></a>
                             
                             <a href="/tags/multer/"><span class="chip bg-color">multer</span></a>
                             
@@ -786,6 +786,70 @@
 
 </div>
     </div>
+
+    
+      <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
+<script type="text/javascript"> 
+if(true){
+    var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
+    var leancloud_app_key = 'oVDK9Nl1SEhkpI50U67NAsXP';
+
+    AV.init({
+        appId: leancloud_app_id,
+        appKey: leancloud_app_key
+    });
+
+    var pageViewsLength = $(".pageViews").length;
+
+    var isIndex = $(".pageViews").length > 1 ?true:false;
+
+    function showTime() {
+        var Counter = AV.Object.extend("Counter");
+        if(isIndex){
+            $(".pageViews").each(function(){
+                showPageViewsNum($(this),Counter);
+                addPageViewsNum($(this));
+            });
+        }else{
+            showPageViewsNum($(".pageViews"),Counter);
+            addPageViewsNum($(".pageViews"));
+        }
+    }
+
+    //显示阅读量
+    function showPageViewsNum(ele,Counter){
+        var query = new AV.Query("Counter");
+        var title = decodeURI(ele.attr('title'));
+            query.equalTo("title", title)
+        var url = ele.attr('id').trim();
+            query.equalTo("words", url);
+            query.count().then(function (number) {
+                $(document.getElementById(url)).text(number?  number : '0');
+            }, function (error) {
+                 $(document.getElementById(url)).text('0');
+            });
+    }
+
+    //追加阅读量
+    function addPageViewsNum(ele){
+        var url = ele.attr('id').trim();
+        var title = decodeURI(ele.attr('title'));
+        var Counter = AV.Object.extend("Counter");
+        var query = new Counter;
+        query.save({
+            words: url,
+            title: title
+        }).then(function (object) {});
+    }
+
+    if(pageViewsLength){ //此处判断等于 1 在执行 可去除循环
+        showTime();
+    }
+}
+</script>
+
+    
+
 </footer>
 
 <div class="progress-bar"></div>

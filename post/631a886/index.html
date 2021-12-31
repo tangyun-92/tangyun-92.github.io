@@ -496,11 +496,13 @@
                 
 
                 
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
+
+                
+                <div class="archive-article-date">
+                  <i class="icon-smile icon far fa-eye fa-fw"></i> 阅读数:&nbsp;&nbsp;<span id="/post/631a886/" title="/Vue%E9%A1%B9%E7%9B%AE%E9%A6%96%E5%B1%8F%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96"
+                    class="pageViews">0</span>次
+                </a>
+                
             </div>
         </div>
         <hr class="clearfix">
@@ -1221,6 +1223,70 @@ plugin<span class="token operator">:</span> <span class="token punctuation">[</s
 
 </div>
     </div>
+
+    
+      <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
+<script type="text/javascript"> 
+if(true){
+    var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
+    var leancloud_app_key = 'oVDK9Nl1SEhkpI50U67NAsXP';
+
+    AV.init({
+        appId: leancloud_app_id,
+        appKey: leancloud_app_key
+    });
+
+    var pageViewsLength = $(".pageViews").length;
+
+    var isIndex = $(".pageViews").length > 1 ?true:false;
+
+    function showTime() {
+        var Counter = AV.Object.extend("Counter");
+        if(isIndex){
+            $(".pageViews").each(function(){
+                showPageViewsNum($(this),Counter);
+                addPageViewsNum($(this));
+            });
+        }else{
+            showPageViewsNum($(".pageViews"),Counter);
+            addPageViewsNum($(".pageViews"));
+        }
+    }
+
+    //显示阅读量
+    function showPageViewsNum(ele,Counter){
+        var query = new AV.Query("Counter");
+        var title = decodeURI(ele.attr('title'));
+            query.equalTo("title", title)
+        var url = ele.attr('id').trim();
+            query.equalTo("words", url);
+            query.count().then(function (number) {
+                $(document.getElementById(url)).text(number?  number : '0');
+            }, function (error) {
+                 $(document.getElementById(url)).text('0');
+            });
+    }
+
+    //追加阅读量
+    function addPageViewsNum(ele){
+        var url = ele.attr('id').trim();
+        var title = decodeURI(ele.attr('title'));
+        var Counter = AV.Object.extend("Counter");
+        var query = new Counter;
+        query.save({
+            words: url,
+            title: title
+        }).then(function (object) {});
+    }
+
+    if(pageViewsLength){ //此处判断等于 1 在执行 可去除循环
+        showTime();
+    }
+}
+</script>
+
+    
+
 </footer>
 
 <div class="progress-bar"></div>
