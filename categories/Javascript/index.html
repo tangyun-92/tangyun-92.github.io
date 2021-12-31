@@ -404,28 +404,19 @@
                 </a>
                 
                 
-                <a href="/categories/Mac/" title="Mac: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #E8F8F5;">Mac
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/Cli/" title="Cli: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #FEF9E7;">Cli
+                            style="background-color: #E8F8F5;">Cli
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Navicat/" title="Navicat: 1">
+                <a href="/categories/Mac/" title="Mac: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F8F9F9;">Navicat
+                            style="background-color: #FEF9E7;">Mac
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -434,7 +425,16 @@
                 <a href="/categories/Nginx/" title="Nginx: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #82E0AA;">Nginx
+                            style="background-color: #F8F9F9;">Nginx
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/Navicat/" title="Navicat: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #82E0AA;">Navicat
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -449,10 +449,19 @@
                 </a>
                 
                 
+                <a href="/categories/VsCode/" title="VsCode: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #A3E4D7;">VsCode
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/Mongodb/" title="Mongodb: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #A3E4D7;">Mongodb
+                            style="background-color: #85C1E9;">Mongodb
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -461,17 +470,8 @@
                 <a href="/categories/Node/" title="Node: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #85C1E9;">Node
+                            style="background-color: #F8C471;">Node
                         <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/VsCode/" title="VsCode: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F8C471;">VsCode
-                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -947,7 +947,7 @@
 
     
       <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
-<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript"> 
 if(true){
     var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
@@ -995,11 +995,13 @@ if(true){
         var title = decodeURI(ele.attr('title'));
         var Counter = AV.Object.extend("Counter");
         var query = new Counter;
+        var ip = returnCitySN["cip"] ? returnCitySN["cip"] : null
+        var address = returnCitySN["cname"] ? returnCitySN["cname"] : null
         query.save({
             words: url,
             title: title,
-            ip: returnCitySN["cip"],
-            address: returnCitySN["cname"]
+            ip: ip,
+            address: address
         }).then(function (object) {});
     }
 

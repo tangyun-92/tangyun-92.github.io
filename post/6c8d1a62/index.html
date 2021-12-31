@@ -1312,7 +1312,7 @@ app<span class="token punctuation">.</span><span class="token function">listen</
 
     
       <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
-<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript"> 
 if(true){
     var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
@@ -1360,11 +1360,13 @@ if(true){
         var title = decodeURI(ele.attr('title'));
         var Counter = AV.Object.extend("Counter");
         var query = new Counter;
+        var ip = returnCitySN["cip"] ? returnCitySN["cip"] : null
+        var address = returnCitySN["cname"] ? returnCitySN["cname"] : null
         query.save({
             words: url,
             title: title,
-            ip: returnCitySN["cip"],
-            address: returnCitySN["cname"]
+            ip: ip,
+            address: address
         }).then(function (object) {});
     }
 
