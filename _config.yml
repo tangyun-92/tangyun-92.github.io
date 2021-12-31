@@ -145,6 +145,13 @@ feed:
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
 
+leancloud_counter_security:
+ enable_sync: true
+ app_id: xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz # 同前文的id
+ app_key: oVDK9Nl1SEhkpI50U67NAsXP # 同前文的key
+ username:
+ password:
+
 # 设置文章字数统计与预计阅读时间
 symbols_count_time:
   symbols: true 
