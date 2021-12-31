@@ -1119,6 +1119,7 @@ $ git pull<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
 
     
       <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript"> 
 if(true){
     var leancloud_app_id  = 'xedElFQAq91wcPuFzK2bpCTq-gzGzoHsz';
@@ -1168,7 +1169,9 @@ if(true){
         var query = new Counter;
         query.save({
             words: url,
-            title: title
+            title: title,
+            ip: returnCitySN["cip"],
+            address: returnCitySN["cname"]
         }).then(function (object) {});
     }
 
