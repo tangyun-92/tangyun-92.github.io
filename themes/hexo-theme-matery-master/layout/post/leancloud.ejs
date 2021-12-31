@@ -1,5 +1,5 @@
 <script src="<%- theme.js_cdn.av %>"></script>
-<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script type="text/javascript"> 
 if(<%- theme.leancloud_visitors.enable %>){
     var leancloud_app_id  = '<%- theme.leancloud_visitors.app_id %>';
@@ -47,11 +47,13 @@ if(<%- theme.leancloud_visitors.enable %>){
         var title = decodeURI(ele.attr('title'));
         var Counter = AV.Object.extend("Counter");
         var query = new Counter;
+        var ip = returnCitySN["cip"] ? returnCitySN["cip"] : null
+        var address = returnCitySN["cname"] ? returnCitySN["cname"] : null
         query.save({
             words: url,
             title: title,
-            ip: returnCitySN["cip"],
-            address: returnCitySN["cname"]
+            ip: ip,
+            address: address
         }).then(function (object) {});
     }
 
