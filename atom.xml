@@ -383,6 +383,137 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   </entry>
   
   <entry>
+    <title>对象的类型-接口</title>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/3a31477/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/3a31477/</id>
+    <published>2021-04-23T02:51:14.000Z</published>
+    <updated>2021-12-31T09:25:00.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在TypeScript中，我们使用接口（Interfaces）来定义对象的类型。&lt;/p&gt;
+&lt;h3 id=&quot;什么是接口&quot;&gt;&lt;a href=&quot;#什么是接口&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Typescript/"/>
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>联合类型</title>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/79af8907/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/79af8907/</id>
+    <published>2021-04-23T02:49:14.000Z</published>
+    <updated>2021-12-31T09:23:35.775Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;联合类型表示取值可以为多种类型中的一种。&lt;/p&gt;
+&lt;h3 id=&quot;例子&quot;&gt;&lt;a href=&quot;#例子&quot; class=&quot;headerlink&quot; title=&quot;例子&quot;&gt;&lt;/a&gt;例子&lt;/h3&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Typescript/"/>
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类型推论</title>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/95a4ac81/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/95a4ac81/</id>
+    <published>2021-04-23T02:46:14.000Z</published>
+    <updated>2021-12-31T09:22:25.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如果没有明确指定类型，那么TypeScript会依照类型推论的规则推断出一个类型。&lt;/p&gt;
+&lt;h3 id=&quot;什么是类型推论&quot;&gt;&lt;a href=&quot;#什么是类型推论&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Typescript/"/>
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>任意值类型</title>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/1394cebd/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/1394cebd/</id>
+    <published>2021-04-23T02:44:14.000Z</published>
+    <updated>2021-12-31T09:21:17.923Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;任意值（Any）用来表示允许赋值为任意类型。&lt;/p&gt;
+&lt;h3 id=&quot;什么是任意值类型&quot;&gt;&lt;a href=&quot;#什么是任意值类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Typescript/"/>
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原始数据类型</title>
+    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/971237c4/"/>
+    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/971237c4/</id>
+    <published>2021-04-23T02:42:14.000Z</published>
+    <updated>2021-12-31T09:15:24.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;JavaScript的类型分为两种：原始数据类型和对象类型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原始数据类型：布尔值、数值、字符串、&lt;code&gt;null&lt;/code&gt;、&lt;code&gt;undefined&lt;/code&gt; 以及ES6中的新类型 &lt;code&gt;Symbol&lt;/code&gt; 和</summary>
+        
+      
+    
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Typescript/"/>
+    
+    
+    <category term="Typescript" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>节流与防抖函数的实现</title>
     <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/60fbdbc1/"/>
     <id>https://github.com/tangyun-92/tangyun-92.github.io/post/60fbdbc1/</id>
@@ -436,112 +567,6 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
     <category term="Nginx" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Nginx/"/>
     
     <category term="跨域" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用NodeJS实现JWT原理</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/6c8d1a62/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/6c8d1a62/</id>
-    <published>2020-11-20T02:30:14.000Z</published>
-    <updated>2021-12-30T03:22:21.377Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;JWT 是 json web token的简称，本文介绍它的原理，最后后端用nodejs自己实现如何为客户端生成令牌token和校验token&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Node" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Node/"/>
-    
-    
-    <category term="Node" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Node/"/>
-    
-    <category term="JWT" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/JWT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Performance前端性能监控</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/9ad0612b/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/9ad0612b/</id>
-    <published>2020-11-11T04:22:39.000Z</published>
-    <updated>2021-12-30T03:20:30.281Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;什么是performance&quot;&gt;&lt;a href=&quot;#什么是performance&quot; class=&quot;headerlink&quot; title=&quot;什么是performance&quot;&gt;&lt;/a&gt;什么是performance&lt;/h3&gt;&lt;p&gt;performance可以获取到当前页面中与性能相关的信息，可以检测到白屏时间、首屏时间、用户可操作的时间节点、页面总下载的时间、DNS查询的时间、TCP链接的时间等。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="性能优化" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
-    
-    
-    <category term="性能优化" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
-    
-    <category term="Performance" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Performance/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue项目首屏加载速度优化</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/631a886/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/631a886/</id>
-    <published>2020-11-11T02:33:14.000Z</published>
-    <updated>2021-12-30T03:22:44.947Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;路由懒加载&quot;&gt;&lt;a href=&quot;#路由懒加载&quot; class=&quot;headerlink&quot; title=&quot;路由懒加载&quot;&gt;&lt;/a&gt;路由懒加载&lt;/h3&gt;&lt;h4 id=&quot;1-作用&quot;&gt;&lt;a href=&quot;#1-作用&quot; class=&quot;headerlink&quot; title=&quot;1.作用&quot;&gt;&lt;/a&gt;1.作用&lt;/h4&gt;&lt;p&gt;提升用户体验，提升首屏组件加载速度，解决白屏问题&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Vue" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Vue/"/>
-    
-    
-    <category term="性能优化" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
-    
-    <category term="Vue" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue执行打包时将代码同时生成一个压缩文件包</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/580cd3b0/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/580cd3b0/</id>
-    <published>2020-09-25T02:32:14.000Z</published>
-    <updated>2021-12-30T03:22:38.497Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;首先安装插件&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; filemanager-webpack-plugin@2.0.5 -D&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
-    
-    
-    
-    <category term="Vue" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Vue/"/>
-    
-    
-    <category term="Vue" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Vue/"/>
-    
-    <category term="ZIP" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/ZIP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nodejs实现批量裁剪图片功能</title>
-    <link href="https://github.com/tangyun-92/tangyun-92.github.io/post/edad572d/"/>
-    <id>https://github.com/tangyun-92/tangyun-92.github.io/post/edad572d/</id>
-    <published>2020-09-25T02:32:14.000Z</published>
-    <updated>2021-12-30T03:22:15.125Z</updated>
-    
-    
-    <summary type="html">&lt;h4 id=&quot;1、初始化&quot;&gt;&lt;a href=&quot;#1、初始化&quot; class=&quot;headerlink&quot; title=&quot;1、初始化&quot;&gt;&lt;/a&gt;1、初始化&lt;/h4&gt;&lt;p&gt;首先新建一个 tailor-img 文件夹，接着执行 npm init -y 初始化一个package.json&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Node" scheme="https://github.com/tangyun-92/tangyun-92.github.io/categories/Node/"/>
-    
-    
-    <category term="Node" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Node/"/>
-    
-    <category term="Canvas" scheme="https://github.com/tangyun-92/tangyun-92.github.io/tags/Canvas/"/>
     
   </entry>
   
