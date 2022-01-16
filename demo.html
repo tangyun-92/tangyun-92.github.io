@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let str = '?a?z?d?'
+    // 英文字母随机数
+    // let letterRandom = letterArr[Math.floor(Math.random() * letterArr.length)]
+
+    // function tranStr(s) {
+    //   // 英文字母数组
+    //   let letterArr = []
+    //   // 拿到26个英文字母组成的数组
+    //   for (var i = 0; i < 26; i++) {
+    //     letterArr.push(String.fromCharCode(97 + i))
+    //   }
+
+    //   let n = s.length
+    //   let str = ''
+    //   for (let i = 0; i < n; i++) {
+    //     if (s[i] === '?') {
+    //       // for(let item of letterArr) {
+    //       //   if (str[i - 1] !== item && s[i + 1] !== item) {
+    //       //     str += item
+    //       //     break;
+    //       //   }
+    //       // }
+    //       for (let x = 0; x < letterArr.length; x++) {
+    //         if (str[i - 1] !== letterArr[x] && s[i + 1] !== letterArr[x]) {
+    //           str += letterArr[x]
+    //           break;
+    //         }
+    //       }
+    //     } else {
+    //       str += s[i]
+    //     }
+    //   }
+    //   return str
+    // }
+
+
+    function tranStr(s) {
+      // 英文字母数组
+      let letterArr = []
+      // 拿到26个英文字母组成的数组
+      for (var i = 0; i < 26; i++) {
+        letterArr.push(String.fromCharCode(97 + i))
+      }
+
+      let n = s.length
+      let str = ''
+      
+      for (let i = 0; i < n; i++) {
+        if (s[i] === '?') {
+          for (let item of letterArr) {
+            let newLetterArr = letterArr
+            newLetterArr.forEach((item, index) => {
+              if (item === str[i - 1]) {
+                newLetterArr.splice(index, 1)
+              }
+              if (item === s[i + 1]) {
+                newLetterArr.splice(index, 1)
+              }
+            })
+            str += newLetterArr[Math.floor(Math.random() * newLetterArr.length)]
+            break;
+          }
+        } else {
+          str += s[i]
+        }
+      }
+      return str
+    }
+
+    let newStr = tranStr(str)
+    console.log(newStr)
+
+  </script>
+</body>
+
+</html>
